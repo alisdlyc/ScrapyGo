@@ -13,14 +13,14 @@ headers = {
     'Origin': 'http://opac.bupt.edu.cn:8080'
 }
 
-for _ in ['A', 'B', 'C']:
+for _ in ['A']:
     re = requests.post(
         url='http://opac.bupt.edu.cn:8080//search-classify.json',
         headers=headers,
         data=dict(
             # classnoAbs=item['classno'],
             classnoAbs=_,
-            pageNo='1',
+            pageNo='72',
             pageSize='50',
             order='-1',
         ),
@@ -28,4 +28,4 @@ for _ in ['A', 'B', 'C']:
 
     book_pages = jsonpath(json.loads(re.text), '$..totalPage')[0]
     total = jsonpath(json.loads(re.text), '$..total')[0]
-    print('%s pages total is %s.....' % (book_pages, total))
+    print(re.text)

@@ -1,3 +1,5 @@
+import re
+
 import scrapy
 import json
 from jsonpath import jsonpath
@@ -48,6 +50,7 @@ class LibraryRedisSpider(RedisSpider):
                     # item = BookItem()
                     # item['classno'] = third.xpath('./span[1]/text()').extract_first()
                     # item['heading'] = third.xpath('./span[last()]/text()')
+                    # print(third.xpath('./span[1]/text()').extract_first().replace(' ', ''))
 
                     yield scrapy.FormRequest(
                         url='http://opac.bupt.edu.cn:8080//search-classify.json',
@@ -56,7 +59,7 @@ class LibraryRedisSpider(RedisSpider):
                             # classnoAbs=item['classno'],
                             classnoAbs=third.xpath('./span[1]/text()').extract_first().replace(' ', ''),
                             pageNo='0',
-                            pageSize='50',
+                            pageSize='10',
                             order='-1',
                         ),
                         callback=self.parse_books_pages,
@@ -68,7 +71,10 @@ class LibraryRedisSpider(RedisSpider):
     def parse_books_pages(self, response):
         Abs = response.meta['Abs']
         Heading = response.meta['Heading']
-        for _ in range(jsonpath(json.loads(response.text), '$..totalPage')[0]):
+        response = re.sub(r"[\x00-\x08]|[\x0B-\x0C]|[\x0E-\x1F]", '', response.text)
+
+        # print('%s have %d pages' % (Abs, jsonpath(json.loads(response), '$..totalPage')[0]))
+        for _ in range(jsonpath(json.loads(response), '$..totalPage')[0] + 1):
             yield scrapy.FormRequest(
                 url='http://opac.bupt.edu.cn:8080//search-classify.json',
                 headers=self.headers,
@@ -76,19 +82,20 @@ class LibraryRedisSpider(RedisSpider):
                     # classnoAbs=item['classno'],
                     classnoAbs=Abs,
                     pageNo='%d' % _,
-                    pageSize='50',
+                    pageSize='10',
                     order='-1',
                 ),
                 callback=self.get_books_data,
                 meta={'Abs': Abs,
-                      'Heading': Heading}
+                      'Heading': Heading},
+                dont_filter=True
             )
 
     def get_books_data(self, response):
         Abs = response.meta['Abs']
         Heading = response.meta['Heading']
-
-        books = json.loads(response.text)['data']
+        response = re.sub(r"[\x00-\x08]|[\x0B-\x0C]|[\x0E-\x1F]", '', response.text)
+        books = json.loads(response)['data']
         for book in books:
             item = BookItem()
             item['heading'] = Heading

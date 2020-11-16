@@ -1,0 +1,6 @@
+Referer: https://www.discogs.com/search/?sort=hot%2Cdesc&decade=2020&page=1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.2.0 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Cookie: sid=fcec995c1800e6de90a727a1eebbe8d9; language2=en

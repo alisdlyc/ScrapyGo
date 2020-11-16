@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="google-site-verification" content="P9e8dDWoaDuDPrp0DD3zgkSxYwl5w10Ask6KkHr2V6k">
+<meta http-equiv="content-language" content="en">
+<meta name="viewport" content="width=device-width, initial-scale=0.70">
+<title>Discogs - Error 429 - Rate limit reached.</title>
+<link rel="icon" href="/favicon.ico" />
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-36965964-1');
+    ga('send', 'pageview', { title: 'Rate Limit Reached' });
+</script>
+<style type="text/css">
+    html, body {
+        margin: 0;
+        padding: 0;
+        font: 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #333;
+    }
+    a {
+        color: #03b;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #08c;
+        text-decoration: underline;
+    }
+    #wrapper {
+        width: 370px;
+        margin: 40px auto;
+        text-align: center;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 40px;
+        margin: 0 0 10px;
+    }
+    .actions {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    #broken_record {
+        position: relative;
+        width: 370px;
+        height: 370px;
+        margin-bottom: 20px;
+    }
+    #broken_record > img {
+        position: absolute;
+    }
+    #piece1 {
+        width: 281.5px;
+        height: 167.5px;
+        top: 0;
+        left: 16px;
+    }
+    #piece2 {
+        width: 149.5px;
+        height: 118px;
+        top: 49px;
+        left: 197px;
+    }
+    #piece3 {
+        width: 165.5px;
+        height: 175.5px;
+        top: 103px;
+        left: 205px;
+    }
+    #piece4 {
+        width: 58px;
+        height: 47px;
+        top: 189px;
+        left: 197px;
+        z-index: 7;
+    }
+    #piece5 {
+        width: 127.5px;
+        height: 129px;
+        top: 227px;
+        left: 201px;
+    }
+    #piece6 {
+        width: 165.5px;
+        height: 163.5px;
+        top: 182px;
+        left: 42px;
+    }
+    #piece7 {
+        width: 165.5px;
+        height: 111px;
+        top: 152px;
+        left: 0;
+    }
+    #logo {
+        width: 135px;
+        height: auto;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="broken_record">
+            <img
+                id="piece1" data-x-range="20" data-y-range="13"
+                src="https://media.discogs.com/429/piece-1.png">
+            <img
+                id="piece2" data-x-range="28" data-y-range="15"
+                src="https://media.discogs.com/429/piece-2.png">
+            <img
+                id="piece3" data-x-range="30" data-y-range="18"
+                src="https://media.discogs.com/429/piece-3.png">
+            <img
+                id="piece4" data-x-range="33" data-y-range="20"
+                src="https://media.discogs.com/429/piece-4.png">
+            <img
+                id="piece5" data-x-range="28" data-y-range="23"
+                src="https://media.discogs.com/429/piece-5.png">
+            <img
+                id="piece6" data-x-range="30" data-y-range="15"
+                src="https://media.discogs.com/429/piece-6.png">
+            <img
+                id="piece7" data-x-range="28" data-y-range="13"
+                src="https://media.discogs.com/429/piece-7.png">
+        </div>
+        <h1>Rate limit reached.</h1>
+        <h3>Error 429</h3>
+        <p>You have made too many http requests.<br />Please try again shortly.</p>
+        <p class="actions">
+            <a href="https://www.discogs.com" title="Back to Discogs.com"><strong>discogs.com</strong></a> &mdash;
+            <a href="https://www.discogs.com/help" title="Get help"><strong>Help!</strong></a> &mdash;
+            <a href="https://www.twitter.com/discogs/" target="_blank" title="Check our Twitter feed for updates">@discogs</a>
+        </p>
+        <a href="https://www.discogs.com">
+            <img
+                id="logo" alt="Discogs"
+                src="https://media.discogs.com/429/discogs-190x60.png">
+        </a>
+    </div>
+    <script>
+        var winW = window.innerWidth;
+        var winH = window.innerHeight;
+        var pieces = document.getElementsByTagName("img");
+        var calculatePosition = function(piece, percentX, percentY) {
+            var calculatedX = (piece.dataset.xRange / 2) - (piece.dataset.xRange * percentX);
+            var calculatedY = (piece.dataset.yRange / 2) - (piece.dataset.yRange * percentY);
+            piece.style.transform = piece.style.webkitTransform = piece.style.MozTransform = "translate3d(" + calculatedX + "px, " + calculatedY + "px, 0)";
+        }
+        window.onmousemove = function(e) {
+            var percentX = (e.clientX / winW).toFixed(4);
+            var percentY = (e.clientY / winH).toFixed(4);
+
+            for (var i = 0; i < pieces.length; i++) {
+                calculatePosition(pieces[i], percentX, percentY);
+            }
+        }
+    </script>
+</body>
+</html>
+

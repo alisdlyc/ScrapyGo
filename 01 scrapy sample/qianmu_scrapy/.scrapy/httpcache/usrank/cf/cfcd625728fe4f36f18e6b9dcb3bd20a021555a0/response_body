@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>巴布森学院-迁木网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords"  content="巴布森学院" />
+<meta name="description"  id="description"  content="巴布森学院:巴布森学院（Babson College）位于马萨诸塞小城韦尔斯利（Wellesley），波士顿近郊，成立于1919年，是一所小型的尤以企业管理著称的私立商学院。巴布森学院占地350英亩（合1.4平方公里），主校区所在地称巴布森园（Babson Park），毗邻奥林工程学院，约有学生3,000人，设有本科和硕士两种学位项目。" />
+
+<link rel="stylesheet" type="text/css" href="/r/release/css/all.min.css?v=1.2">
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="icon" type="image/png" sizes="16x16" href="/r/plugins/images/logo.ico"> 
+
+
+<style>
+#tree>ul>li{font-size:15px;}
+.container-fluid{padding-left:0px;}
+</style>
+</head>
+<body class="fix-header fix-sidebar"> 
+<script type="text/javascript">
+document.body.oncopy = function () { 
+ setTimeout( function () { 
+	 if(document.all){ 
+		 var text = clipboardData.getData("text");
+		  if (text) { 
+		   text = text + "\r\n文章来自: 迁木网(http://www.qianmu.org)  详文参考："+location.href; 
+		   clipboardData.setData("text", text);
+		  } 
+		}else{ 
+		 }
+    }, 100 ) 
+}
+
+</script>
+	 <div class="preloader">
+  	<div class="cssload-speeding-wheel"></div>
+    </div>
+<div id="wrapper">
+   
+<nav class="navbar navbar-default navbar-static-top m-b-0">
+	<div class="navbar-header">
+		<a class="navbar-toggle hidden-sm hidden-md hidden-lg "
+			href="javascript:void(0)" data-toggle="collapse"
+			data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+		<div class="top-left-part">
+			<a class="logo" href="/"><b> <img
+					src="/r/plugins/images/lo.png" alt="迁木网" title="迁木网"
+					class="dark-logo" style="padding:10px;" /><img
+					src="/r/plugins/images/lo.png" title="迁木网" alt="迁木网"
+					class="light-logo" style="padding:10px;" /></b> <span class="hidden-xs"><img
+					src="/r/plugins/images/logo22.png" title="迁木网" alt="迁木网"
+					class="dark-logo" /><img src="/r/plugins/images/logo22.png"
+					title="迁木网" alt="迁木网" class="light-logo" /></span></a>
+		</div>
+		<ul class="nav navbar-top-links navbar-left hidden-xs">
+			<li><a href="javascript:void(0)"
+				class="open-close hidden-xs waves-effect waves-light"><i
+					class="icon-arrow-left-circle ti-menu"></i></a></li>
+			<li  >
+				<form role="search" class="app-search hidden-xs" action="/q"
+					method="get">
+					<input type="text" placeholder="学校、问题搜一下..." q class="form-control"
+						name="title" style="min-width:300px;"> <a href="#"><i
+						class="fa fa-search search"></i></a>
+				</form>
+			</li>
+			<li >
+				<a   href="/mall" ><i class="fa fa-shopping-cart"></i>&nbsp;留学商城</a>
+			</li>
+		</ul>
+		<ul class="nav navbar-top-links navbar-right pull-right">
+			<li pub>
+				<a id="navfb" href="javascript:void(0)" >发帖</a>
+			</li>
+			
+			
+			
+			<li class="dropdown" chat><a  href="/chat?tid=38"><i class="ti-email"></i></a>
+			</li>
+			<li class="dropdown hide" msg><a
+				class="dropdown-toggle waves-effect waves-light"
+				data-toggle="dropdown" href="#"><i class="icon-volume-2"></i>
+					<div class="notify"></div> </a>
+				<ul
+					class="dropdown-menu dropdown-cart dropdown-tasks animated bounceInDown">
+					<li><a class="text-center" href="/forum"><strong>查看全部</strong>
+							<i class="fa fa-angle-right"></i> </a></li>
+				</ul></li>
+			<li class="dropdown" userArea></li>
+			<li class="right-side-toggle"><a
+				class="waves-effect waves-light" href="javascript:void(0)"><i
+					class="ti-settings"></i></a></li>
+		</ul>
+	</div>
+</nav>
+
+<div id="myModalnav" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" style="width: 700px">
+			<div class="modal-content" style="margin-top: 100px;">
+				<div class="modal-body modal-body-alert" >
+						<div class="row" >
+			        		<div class="row"  style="text-align: center;margin-left: 5%;width: 89%;height: 60px;" >
+			        			<div style="text-align: center;"><h1 class="news-title"><a href="/addForumView" class="btn btn-block btn-info" style="font-size: 25px;" target="_blank">发表主题</a></h1></div>
+			        		</div>
+							<div class="row" style="text-align: center;margin-left: 5%;width: 89%;margin-top:10px;">
+									<ul class="bs-glyphicons">
+										<li style="width: 33%">
+										<a href="/estimate" target="_blank"><span class="glyphicon glyphicon-paperclip " aria-hidden="true"></span>
+											<span class="glyphicon-class">求定位</span></a></li>
+										<li style="width: 33%"><a href="/addOffer" target="_blank"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <span class="glyphicon-class">报Offer</span>
+										</a>
+										</li>
+										<li style="width: 33%"><a href="/chat?tid=38" target="_blank"><span class="glyphicon glyphicon-font" aria-hidden="true"></span> <span class="glyphicon-class">咨询版主</span>
+										</a>
+										</li>
+									</ul>
+							</div>
+			        	</div>
+				</div>
+			</div>
+		</div>
+</div> 
+   
+<div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+      <ul class="nav" id="side-menu">
+        <li class="m-t-10"><a href="/forum" class="waves-effect "><i class="linea-icon linea-basic fa-fw" data-icon="-"></i> <span class="hide-menu">互动 <span class="fa arrow"></span></span></a>
+          <ul class="nav nav-second-level ">
+            <li><a href="/forum" class="">在线论坛</a></li>
+            <li><a href="/forum?type=2" class="">Offer榜</a></li>
+            <li><a href="/askshow" class="">小秘回复墙</a></li>
+            
+          </ul>
+        </li>
+        <li><a href="/ranking/1528.htm" class="waves-effect "><i class="linea-icon linea-basic fa-fw" data-icon="+"></i> <span class="hide-menu">排名 <span class="fa arrow"></span></span></a>
+          <ul class="nav nav-second-level ">
+            <li><a href="/ranking/1528.htm">QS世界排名</a></li>
+            <li><a href="/ranking/905.htm">USNEWS排名</a></li>
+            <li><a href="/ranking/1209.htm">PayScale工资排名</a></li>
+            <li><a href="/ranking/904.htm">上交大排名</a></li>
+          </ul>
+        </li>
+        <li><a href="/美国本科研究生选校" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon=">"></i> <span class="hide-menu">选校<span class="fa arrow"></span></span></a>
+          <ul class="nav nav-second-level collapse in">
+            <li><a href="/美国本科研究生选校">选校</a></li>
+            <li><a href="/offer">案例库</a></li>
+          </ul>
+        </li>
+        <li><a href="/分类索引" class="waves-effect active"><i class="linea-icon linea-basic fa-fw" data-icon="m"></i> <span class="hide-menu">词条<span class="fa arrow"></span></span></a>
+          <ul class="nav nav-second-level collapse in">
+            <li><a href="/分类索引">百科</a></li>
+            <li><a href="http://www.qianmu.org/%E7%B2%BE%E5%8D%8E%E6%94%BB%E7%95%A5%E7%B4%A2%E5%BC%95">精华索引</a></li>
+            <li><a href="/留学中介机构列表">中介</a></li>
+            <li><a href="/下载中心">下载中心</a></li>
+          </ul>
+        </li>
+        <li><a href="/mall" class="waves-effect" ><i class="linea-icon linea-basic fa-fw" data-icon="V"></i> <span class="hide-menu">商城<span class="fa arrow"></span></span></a>
+          <ul class="nav nav-second-level ">
+          	 <li><a href="/mall?c=1">美国申请</a></li>
+          	 <li><a href="/mall?c=2">英国留学</a></li>
+             <li><a href="/mall?c=8">文书服务</a></li>
+          </ul>
+        </li>
+		 <li style="display:none;"><a href="/article" class="waves-effect "><i class="linea-icon linea-basic fa-fw" data-icon="a"></i><span class="hide-menu">新闻<span class="fa arrow"></span></span></a>
+				<ul class="nav nav-second-level   ">
+					<li><a href="/article">资讯</a></li>
+				</ul></li>
+			<li class="nav-small-cap m-t-10" style="text-align:center;border-bottom: 1px solid #ddd;"></li>
+			
+      </ul>
+    </div>
+  </div> 
+   <div class="right-sidebar">
+        <div class="slimscrollright">
+          <div class="rpanel-title">个性化设置<span><i class="ti-close right-side-toggle"></i></span> </div>
+          <div class="r-panel-body">
+            <ul>
+              <li><b>显示设置</b></li>
+              <li>
+                <div class="checkbox checkbox-info">
+                  <input id="checkbox1" type="checkbox" class="fxhdr">
+                  <label for="checkbox1">固定头部导航</label>
+                </div>
+              </li>
+              <li>
+                <div class="checkbox checkbox-warning">
+                  <input id="checkbox2" type="checkbox" checked="" class="fxsdr">
+                  <label for="checkbox2" >固定左侧导航</label>
+                </div>
+              </li>
+              <li>
+                <div class="checkbox checkbox-success">
+                  <input id="checkbox4" type="checkbox" class="open-close">
+                  <label for="checkbox4" >切换工具栏目</label>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li><b>消息设置</b></li>
+              <li>
+                <div class="checkbox checkbox-info">
+                  <input id="checkboxmsg" type="checkbox" class="fxhdr">
+                  <label for="checkboxmsg">不接受网页通知</label>
+                </div>
+              </li>
+              <li>
+                <div class="checkbox checkbox-info">
+                  <input id="checkboxmail" type="checkbox" class="fxhdr">
+                  <label for="checkboxmail">不接受邮件通知</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="share-tools" >
+         <ul>
+         	<li style="font-size: 14px;" id="fk"><a  href="#comments">评论反馈</a></li>
+         	<li id="sharebtn" style="font-size: 14px;padding-left: 12px;" ><a href="javascript:" >我要分享</a></a>
+	         	<ul style="display:none; height:50px;position: absolute;width:180px;right:50px;margin-top:-45px;" id="sharelist" >
+	               <li style="padding-left: 15px;" class="inli"><a href="javascript:shareToWB();" title="分享至微博" >微博</a></li>
+	               <li style="padding-left: 15px;" class="weixin-icon inli"><a href="javascript:" title="分享至微信" >微信</a></li>
+	               <li class="inli" ><a href="javascript:shareToQQ();"  title="分享至QQ空间">QQ空间</a></li>
+	            </ul>
+         	</li>
+         	<li class="back_top" id="back-to-top" style="display: none;" ></li>
+         </ul>
+	 </div>
+ 
+   <div id="page-wrapper">
+   <div class="container-fluid">
+      <!-- row -->
+      <div class="row">
+        <!-- Left sidebar -->
+        <div class="col-md-12">
+          <div class="white-box" style="padding-left:0px;">
+            <!-- row -->
+            <div class="row">
+              <div class="col-lg-2 col-md-3  col-sm-12 col-xs-12 " style="overflow:auto;min-height:30px;display:block;" >
+                <div class='treeDiv'>
+                <div id="treeDiv" ><ul id="tree" class="ztree"></ul></div>
+                </div>
+              </div>
+              
+              <div style="" class="col-lg-10 col-md-9 col-sm-12 col-xs-12 mail_listing">
+               <div class="row" >
+		     <input type="hidden" id="type"/>
+			   <div class="wikiContent" id="wikiContent"  >
+			        <h1 class="wikiTitle">巴布森学院 </h1> 
+					<div class="infobox"><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:130px">			<p>排名</p>			</td>			<td style="width:277px">			<p>USNEWS本科商科：第29*(2)</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>国家</p>			</td>			<td style="width:277px">			<p>美国</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>州省</p>			</td>			<td style="width:277px">			<p><a href="http://www.qianmu.org/马萨诸塞州" target="_blank">马萨诸塞州</a></p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>城市</p>			</td>			<td style="width:277px">			<p>韦尔斯利</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>性质</p>			</td>			<td style="width:277px">			<p>私立，男女合校</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>成立年份</p>			</td>			<td style="width:277px">			<p>1919*(1)</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>宗教信仰</p>			</td>			<td style="width:277px">			<p>无</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>校园</p>			</td>			<td style="width:277px">			<p>1.4Km<sup>2</sup>，郊区</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>学生人数</p>			</td>			<td style="width:277px">			<p>3,057</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>本科生人数</p>			</td>			<td style="width:277px">			<p>2,141</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>研究生人数</p>			</td>			<td style="width:277px">			<p>916</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>学校分类</p>			</td>			<td style="width:277px">			<p>商学院</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>认证机构</p>			</td>			<td style="width:277px">			<p><a href="http://www.qianmu.org/新英格兰学校及学院协会" target="_blank">新英格兰学校及学院协会</a>（NEASC）</p>			<p>国际高等商学院协会（AACSB）</p>			</td>		</tr>		<tr>			<td style="width:130px">			<p>网址</p>			</td>			<td style="width:277px">			<p><a href="http://www.babson.edu/">www.babson.edu</a></p>			</td>		</tr>	</tbody></table></div>
+					<div id="content"><p>巴布森学院（Babson College）位于<a href="http://www.qianmu.org/马萨诸塞州" target="_blank">马萨诸塞州</a>小城韦尔斯利（Wellesley），<a href="http://www.qianmu.org/波士顿" target="_blank">波士顿</a>近郊，成立于1919年，是一所小型的尤以<a href="http://www.qianmu.org/创业管理" target="_blank">创业管理</a>著称的私立商学院。巴布森学院占地350英亩（合1.4平方公里），主校区所在地称巴布森园（Babson Park），毗邻<a href="http://www.qianmu.org/奥林工程学院" target="_blank">奥林工程学院</a>，约有学生3,000人，设有本科和硕士两种学位项目。*(1)</p><p>巴布森学院在<a href="http://www.qianmu.org/USNEWS排名" target="_blank">USNEWS排名</a>中属于既非综合性大学，又非<a href="http://www.qianmu.org/文理学院" target="_blank">文理学院</a>、<a href="http://www.qianmu.org/地方性大学" target="_blank">地方性大学</a>、<a href="http://www.qianmu.org/地方性学院" target="_blank">地方性学院</a>的特殊学校，因此，该学校并没有USNEWS的综合排名。其企业管理在USNEWS的本科专业排名中位列全美第一。*(2)</p><p><strong>学校历史</strong></p><p>巴布森学院由罗格&middot;巴布森（Roger Babson）创立。罗格&middot;巴布森是20世纪中早期美国著名的企业家和商业理论家，一生创立了多所学校，包括韦伯学院（Webber College，也即现时的韦伯国际大学，位于佛罗里达的巴布森园）、以及巴布森学院和现已解散的乌托邦学院（Utopia College），&mdash;&mdash;但只以巴布森学院最为著名。*(3)</p><p>罗格&middot;巴布森在创立巴布森学院之初，便致力于将其打造为一所独具特色的商科学校，当时只提供一年（而非四年）的十分紧凑的商科课程，主要教授生产和<a href="http://www.qianmu.org/金融" target="_blank">金融</a>原理。整个课程分为四个部分，包括：实践<a href="http://www.qianmu.org/经济学" target="_blank">经济学</a>、金融管理、商业<a href="http://www.qianmu.org/心理学" target="_blank">心理学</a>和个人效率。其中个人效率部分内容主要包括伦理、个人素质、人际关系等内容。此种教学方式不含人文与科学课程，相反的，学校默认学生需自其它地方获得此类课程的学习。*(1)</p><p><strong>学校特色</strong></p><p>现时的巴布森学院已成为一所正规的大学，教授四年制的本科课程外加部分的硕士课程。所有的课程主要围绕企业与企业管理设置，现时共有55项与企业直连的本科项目（<a href="http://www.qianmu.org/创业管理" target="_blank">Entrepreneurship</a>-related）。巴布森学院的商科课程最大的特点就是与企业的联系十分紧密，创业氛围十分浓厚。巴布森学院所有的教师几乎都有成功创立、购买、出售或经营一家企业的经历。在过去的5年里，巴布森学院的毕业生已经成功创立了118家公司。巴布森学院的校友也主要以各类公司的CEO、创始人居多，包括丰田汽车的总裁丰田章男便是在巴布森学院获得的<a href="http://www.qianmu.org/MBA" target="_blank">MBA</a>学位。*(1)</p><p>巴布森学院与奥林工程学院、<a href="http://www.qianmu.org/维斯理学院" target="_blank">维斯理学院</a>毗邻，相互间有很强的校际合作。这三所学校外加<a href="http://www.qianmu.org/布兰迪斯大学" target="_blank">布兰迪斯大学</a>，相互间均可以交叉注册，互修对方学校课程。巴布森学院以商科为特色，奥林工程学院则以工程为特色，维斯理学院则是一所以文理通识教育见长的著名女子学校，布兰迪斯大学则是美国著名的私立研究型大学，<a href="http://www.qianmu.org/美国大学协会" target="_blank">美国大学协会</a>成员。四者互有所长，相互补充。*(4)</p><h2><strong>申请点评</strong></h2><p>好评项：</p><p>1 The academic program<br />2 Good alumni connections<br />3 Movie nights in Sorenson rock<br />4 Technology is constantly being updated.<br />5 Internet in classrooms and wireless in dorms<br />6 The Pub. Enough said.<br />7 Late-night parties in the suites<br />8 BDE performances are great at bringing students together.<br />9 The people are very studious, but not to the point that it damages the social atmosphere.<br />10 Intramural sports</p><p>差评项：</p><p>1 The business classes are top-notch, but the liberal arts programs suck.<br />2 Some foreign professors are hard to understand.<br />3 Too many fire alarms on the weekends<br />4 A lot of people smoke. It takes some getting used to.<br />5 Not enough quality guys to go around<br />6 The weather is hot, cold, anything but predictable.<br />7 Trim Hall has room for improvement.<br />8 The workload is tough to get used to.<br />9 There is a lack of 24-hour eateries.<br />10 Some rooms don&#39;t have air-conditioning.*(5)</p><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=mrtw23qSk-uzkHoX5ZpdkN_YZ5rlBsw_XoQl76hRPONLP8inuRAMWxYlurR4cUEA8Ji3f40wXzYx_R9Tkc4Em_H0YAcO_WR2h" target="_blank">Babson College</a> Wikipedia</p><p>(2)&nbsp;<a href="http://www.qianmu.org/redirect?code=5rk_5oaewqQ5MjgRllllleDjPX5lRsDIb1YaFTONmbdYWg1vWgfFK9SQ_V_Pu4aFj4aIh8HXmDpltGxBYYxoJbon07450mC1g2LfDRiElqy1Mnb_cgqyW31O0zb1waFTONmqqzQsvnPOfBl" target="_blank">Babson College</a>&nbsp;USNEWS</p><p>(3)&nbsp;<a href="http://www.qianmu.org/redirect?code=XrChP9xDLZv0OpaXmXOdWw-yge-KIolq5zYzn_IDtERtacTChrvmRpSOYVru2mDK-ujaML-7i_a8a7LC00RaMay_sRFS2" target="_blank">Roger Babson</a>&nbsp;Wikipedia</p><p>(4)&nbsp;<a href="http://www.qianmu.org/redirect?code=kr53aGbVkPIupnzKU3oDnUUzTxPR2I9_9hzSFxE13lMRZg4QRmHJX-AXrH_gempEVtNUX2uVl9-SmHl3YXFzXYD9hbLZ1UmkqRGRSCTR3Wn" target="_blank">OTHER ACADEMIC OPPORTUNITIES</a> Olin College</p><p>(5)&nbsp;<a href="http://www.qianmu.org/redirect?code=VrxbId77kjzL8vUzPPPPPPQshiU3h8nA4C5LjkDXqRlf0-_T4NLFh8_usEpl3ZBz0EeTDNLlsqgfhEVl9qxfDNSf0UvKDNBThmpK9Ee-0XCHi" target="_blank">Babson College</a> College Prowler</p><p>&nbsp;</p><h1>本科申请</h1><p><strong>基本信息</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:17.78%">			<p>USNEWS排名</p>			</td>			<td style="width:16.52%">			<p>Unranked</p>			</td>			<td style="width:17.04%">			<p>学费(/年)</p>			</td>			<td style="width:12.84%">			<p>$48,288</p>			</td>			<td style="width:21.4%">			<p>申请截止日期</p>			</td>			<td style="width:14.42%">			<p>1月1日</p>			</td>		</tr>		<tr>			<td style="width:17.78%">			<p><a href="http://www.qianmu.org/TOEFL" target="_blank">TOEFL</a>要求</p>			</td>			<td style="width:16.52%">			<p>100</p>			</td>			<td style="width:17.04%">			<p>食宿(/年)</p>			</td>			<td style="width:12.84%">			<p>$15,376</p>			</td>			<td style="width:21.4%">			<p>开学时间</p>			</td>			<td style="width:14.42%">			<p>每年8-9月</p>			</td>		</tr>		<tr>			<td style="width:17.78%">			<p><a href="http://www.qianmu.org/IELTS" target="_blank">IELTS</a>要求</p>			</td>			<td style="width:16.52%">			<p>7.0</p>			</td>			<td style="width:17.04%">			<p>申请费</p>			</td>			<td style="width:12.84%">			<p>$75</p>			</td>			<td style="width:21.4%">			<p>可申请学期</p>			</td>			<td style="width:14.42%">			<p>秋季</p>			</td>		</tr>		<tr>			<td style="width:17.78%">			<p><a href="http://www.qianmu.org/SAT" target="_blank">SAT</a>均分</p>			</td>			<td style="width:16.52%">			<p>1260-1460(1600)</p>			</td>			<td style="width:17.04%">			<p>录取率</p>			</td>			<td style="width:12.84%">			<p>26.3%</p>			</td>			<td style="width:21.4%">			<p><a href="http://www.qianmu.org/奖学金" target="_blank">奖学金</a>形式</p>			</td>			<td style="width:14.42%">			<p>Need-aware</p>			</td>		</tr>		<tr>			<td style="width:17.78%">			<p>平均<a href="http://www.qianmu.org/GPA" target="_blank">GPA</a></p>			</td>			<td style="width:16.52%">			<p>-</p>			</td>			<td style="width:17.04%">			<p>申请人数</p>			</td>			<td style="width:12.84%">			<p>7,516</p>			</td>			<td style="width:21.4%">			<p>是否提供<a href="http://www.qianmu.org/双录取" target="_blank">双录取</a></p>			</td>			<td style="width:14.42%">			<p>No</p>			</td>		</tr>	</tbody></table><p>*(1)(2)(3)</p><p>注：&nbsp;&nbsp;</p><p>（1）TOEFL与IELTS均无单项分数要求。SAT阅读600以上，或<a href="http://www.qianmu.org/ACT" target="_blank">ACT</a><a href="http://www.qianmu.org/英语" target="_blank">英语</a>27分以上，可以豁免TOEFL/IELTS成绩*(2)</p><p>（2）巴布森学院分<a href="http://www.qianmu.org/Early Decision" target="_blank">ED</a>、<a href="http://www.qianmu.org/Early Action" target="_blank">EA</a>和<a href="http://www.qianmu.org/Regular Decision" target="_blank">RD</a>三种申请方式，具体可见下方申请时间的说明</p><p>（3）巴布森学院要求申请者递交SAT或ACT成绩，但均无最低分数要求</p><p>（4）巴布森学院未设定有最低GPA分数要求，亦未设定有班级排名要求</p><h2>教学质量</h2><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:19.58%">			<p>本科生人数</p>			</td>			<td style="width:13.28%">			<p>2,141</p>			</td>			<td style="width:21.54%">			<p>小班比例(&lt;20)</p>			</td>			<td style="width:10.1%">			<p>21.2%</p>			</td>			<td style="width:23.6%">			<p><a href="http://www.qianmu.org/学期制度" target="_blank">学期制度</a></p>			</td>			<td style="width:11.92%">			<p>Semester</p>			</td>		</tr>		<tr>			<td style="width:19.58%">			<p>研究生人数</p>			</td>			<td style="width:13.28%">			<p>916</p>			</td>			<td style="width:21.54%">			<p>中班比例(20-49)</p>			</td>			<td style="width:10.1%">			<p>78.8%</p>			</td>			<td style="width:23.6%">			<p>新生住校率</p>			</td>			<td style="width:11.92%">			<p>100%</p>			</td>		</tr>		<tr>			<td style="width:19.58%">			<p>国际学生比例</p>			</td>			<td style="width:13.28%">			<p>26%</p>			</td>			<td style="width:21.54%">			<p>大班比例(&gt;50)</p>			</td>			<td style="width:10.1%">			<p>0%</p>			</td>			<td style="width:23.6%">			<p>就业实习满意度</p>			</td>			<td style="width:11.92%">			<p>60%</p>			</td>		</tr>		<tr>			<td style="width:19.58%">			<p>师生比</p>			</td>			<td style="width:13.28%">			<p>1:14</p>			</td>			<td style="width:21.54%">			<p>六年毕业率</p>			</td>			<td style="width:10.1%">			<p>89%</p>			</td>			<td style="width:23.6%">			<p>学生满意度</p>			</td>			<td style="width:11.92%">			<p>-</p>			</td>		</tr>		<tr>			<td style="width:19.58%">			<p>四年毕业率</p>			</td>			<td style="width:13.28%">			<p>85%</p>			</td>			<td style="width:21.54%">			<p>新生保持率</p>			</td>			<td style="width:10.1%">			<p>96%</p>			</td>			<td style="width:23.6%">			<p>教授博士学位比率</p>			</td>			<td style="width:11.92%">			<p>87%</p>			</td>		</tr>		<tr>			<td style="width:19.58%">毕业2年平均薪水</td>			<td style="width:13.28%">$61,700</td>			<td style="width:21.54%">就业率</td>			<td style="width:10.1%">90%</td>			<td style="width:23.6%">校友网络认可度</td>			<td style="width:11.92%">92%</td>		</tr>	</tbody></table><p>*(1)(4)(5)(6)</p><p><strong>校园安全</strong></p><table border="0" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:143px">校园安全事件</td>			<td style="width:403px">Criminal Offenses -- On-Campus&nbsp;</td>			<td style="width:103px">2012</td>			<td style="width:100px">2013</td>			<td style="width:97px">2014</td>		</tr>		<tr>			<td>谋杀</td>			<td>Murder/Non-negligent manslaughter</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>		</tr>		<tr>			<td>过失杀人</td>			<td>Negligent manslaughter</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>		</tr>		<tr>			<td>强奸</td>			<td>Rape</td>			<td>			<p>N/A</p>			</td>			<td>			<p>N/A</p>			</td>			<td>			<p>7</p>			</td>		</tr>		<tr>			<td>乱伦</td>			<td>Incest</td>			<td>			<p>N/A</p>			</td>			<td>			<p>N/A</p>			</td>			<td>			<p>0</p>			</td>		</tr>		<tr>			<td>强奸幼童罪</td>			<td>Statutory Rape</td>			<td>			<p>N/A</p>			</td>			<td>			<p>N/A</p>			</td>			<td>			<p>0</p>			</td>		</tr>		<tr>			<td>猥亵</td>			<td>Fondling</td>			<td>			<p>N/A</p>			</td>			<td>			<p>N/A</p>			</td>			<td>			<p>1</p>			</td>		</tr>		<tr>			<td>性侵犯-强迫</td>			<td>Sex offenses - Forcible</td>			<td>			<p>1</p>			</td>			<td>			<p>6</p>			</td>			<td>			<p>N/A</p>			</td>		</tr>		<tr>			<td>性侵犯-非强迫</td>			<td>Sex offenses - non-forcible (incest and statutory rape only)</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>			<td>			<p>N/A</p>			</td>		</tr>		<tr>			<td>抢劫</td>			<td>Robbery</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>		</tr>		<tr>			<td>暴力袭击</td>			<td>Aggravated assault</td>			<td>			<p>1</p>			</td>			<td>			<p>2</p>			</td>			<td>			<p>1</p>			</td>		</tr>		<tr>			<td>盗窃</td>			<td>Burglary</td>			<td>			<p>5</p>			</td>			<td>			<p>7</p>			</td>			<td>			<p>7</p>			</td>		</tr>		<tr>			<td>汽车盗窃</td>			<td>Motor vehicle theft</td>			<td>			<p>0</p>			</td>			<td>			<p>0</p>			</td>			<td>			<p>1</p>			</td>		</tr>		<tr>			<td>纵火</td>			<td>Arson</td>			<td>			<p>1</p>			</td>			<td>			<p>1</p>			</td>			<td>			<p>0</p>			</td>		</tr>	</tbody></table><p>*(4)</p><h2>申请说明</h2><p><strong>SAT</strong><strong>与</strong><strong>ACT</strong></p><p>巴布森学院要求所有申请者递交SATⅠ或ACT成绩，SAT无需SATⅡ成绩，ACT必需Writing成绩。要求如下：</p><ul>	<li>SAT：未设定有最低分数要求。2016年秋季入学学生的新SAT 单项平均成绩为：SAT阅读与写作630-710，其中SAT阅读30-35，SAT数学630-750*(1)</li>	<li>ACT：未设定有最低分数要求。2016年秋季录取学生的平均成绩为：综合27-31分*(1)</li></ul><p><strong>AP</strong><strong>、</strong><strong>IB</strong><strong>与</strong><strong>A-level</strong></p><p>巴布森学院<strong>接受</strong><a href="http://www.qianmu.org/AP" target="_blank">AP</a>课程转学分，要求4-5分以上。未详<a href="http://www.qianmu.org/IB" target="_blank">IB</a>和<a href="http://www.qianmu.org/A-level" target="_blank">A-level</a>课程是否可以转学分。*(1)</p><p><strong>申请时间</strong></p><p>巴布森学院通过Comman Application或学校官网在线申请，申请时无需也无从选择自己的专业。分RD、EA和ED三种申请方式，具体申请时间如下：</p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:15.7%">			<p>申请方式</p>			</td>			<td style="width:26.16%">			<p>申请截止日期</p>			</td>			<td style="width:26.16%">			<p>奖学金申请截止</p>			</td>			<td style="width:16.28%">			<p>录取通知日期</p>			</td>			<td style="width:15.7%">			<p>确认Offer日期</p>			</td>		</tr>		<tr>			<td style="width:15.7%">			<p>ED申请</p>			</td>			<td style="width:26.16%">			<p>11月1日</p>			</td>			<td style="width:26.16%">			<p>12月1日</p>			</td>			<td style="width:16.28%">			<p>12月15日</p>			</td>			<td style="width:15.7%">			<p>1月15日</p>			</td>		</tr>		<tr>			<td style="width:15.7%">			<p>EA申请</p>			</td>			<td style="width:26.16%">			<p>11月1日</p>			</td>			<td style="width:26.16%">			<p>无</p>			</td>			<td style="width:16.28%">			<p>1月1日</p>			</td>			<td style="width:15.7%">			<p>5月1日</p>			</td>		</tr>		<tr>			<td style="width:15.7%">			<p>RD申请</p>			</td>			<td style="width:26.16%">			<p>1月1日</p>			</td>			<td style="width:26.16%">			<p>2月15日</p>			</td>			<td style="width:16.28%">			<p>3月20日</p>			</td>			<td style="width:15.7%">			<p>5月1日</p>			</td>		</tr>	</tbody></table><p>*(3)</p><p>注：以上的奖学金申请截止日期是针对巴布森<a href="http://www.qianmu.org/Need-based" target="_blank">Need-based</a>的奖学金&mdash;&mdash;也即全球学者奖学金项目（GLOBAL SCHOLARS PROGRAM）的，巴布森学院还设有多种<a href="http://www.qianmu.org/Merit-based" target="_blank">Merit-based</a>奖学金，但这类奖学金多数均无需单独申请。另需注意的是，EA方式不可以申请学校的Need-based奖学金</p><p><strong>申请材料要求</strong></p><p>巴布森学院要求的<a href="http://www.qianmu.org/申请材料" target="_blank">申请材料</a>清单如下：</p><ul>	<li>填写完整的在线申请表：通过Common Application或巴布森学院（申请入口见下方外部链接）申请，要求75美元申请费。学校对这两种申请方式均无任何偏好 *(3)</li>	<li>中学学校报告（Secondary School Report）*(3)</li>	<li>中学<a href="http://www.qianmu.org/成绩单" target="_blank">成绩单</a>：无需公证，在线扫描递交*(3)</li>	<li>TOEFL/IELTS成绩单：无需TOEFL成绩，亦未设定有最低TOEFL分数要求，但如申请者选择递交的话，亦可以用以参考。按实际情况，巴布森学院多数申请者的TOEFL分数都在<strong>100</strong><strong>分</strong>以上。未详是否接受IELTS成绩。不接受双录取*(2)</li>	<li>SAT/ACT：SAT无需SATⅡ成绩，ACT必需Writing成绩。均为设定有最低分数要求*(2)</li>	<li><a href="http://www.qianmu.org/推荐信" target="_blank">推荐信</a>：2封*(3)</li>	<li>ESSAY：2封*(3)</li>	<li><a href="http://www.qianmu.org/面试" target="_blank">面试</a>：非必需（Optional）。国内学生可通过<a href="http://www.qianmu.org/redirect?code=QrzUA2Q5wfFe865pbbbbbbHU4zOgEq7C8rBIOlmkNH-FEh3FviNIkT-x1anKyF3vItmd6RJLC2g0SFXNU" target="_blank">InitialView.com</a>申请参加面试*(7)</li>	<li><a href="http://www.qianmu.org/资金证明" target="_blank">资金证明</a>：申请时无需提供，录取后亦主要由签证来把关</li>	<li>ED协议：通过ED方式申请的学生需要递交，ED协议表可见下方的外部链接*(3)</li></ul><p><strong>费用与奖学金</strong></p><p>巴布森学院2016-17学年一年学费+食宿预估为6.4万美金，国际学生还需要算上医疗保险费、书本费及其它个人杂费等合约5,000-7,000美元 （预估）。一年整体花费大致为6.4-6.7万美金。*(1)</p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:23.04%">			<p>支出项目</p>			</td>			<td style="width:55.76%">			<p>项目英文名</p>			</td>			<td style="width:21.18%">			<p>2016-2017学年费用</p>			</td>		</tr>		<tr>			<td style="width:23.04%">			<p>学费</p>			</td>			<td style="width:55.76%">			<p>Tuition and fees</p>			</td>			<td style="width:21.18%">			<p>$48,288</p>			</td>		</tr>		<tr>			<td style="width:23.04%">			<p>住宿费用</p>			</td>			<td style="width:55.76%">			<p>Room and board</p>			</td>			<td style="width:21.18%">			<p>$15,376</p>			</td>		</tr>		<tr>			<td style="width:23.04%">			<p>书本费</p>			</td>			<td style="width:55.76%">			<p>Books and supplies</p>			</td>			<td style="width:21.18%">			<p>$1,050</p>			</td>		</tr>		<tr>			<td style="width:23.04%">			<p>个人花费</p>			</td>			<td style="width:55.76%">			<p>Estimated personal expenses</p>			</td>			<td style="width:21.18%">			<p>--</p>			</td>		</tr>		<tr>			<td style="width:23.04%">			<p>交通费</p>			</td>			<td style="width:55.76%">			<p>Transportation expenses</p>			</td>			<td style="width:21.18%">			<p>--</p>			</td>		</tr>		<tr>			<td style="width:23.04%">			<p>合计</p>			</td>			<td style="width:55.76%">			<p>Estimated Total</p>			</td>			<td style="width:21.18%">			<p>$64,714</p>			</td>		</tr>	</tbody></table><p><strong>奖学金：</strong></p><p>巴布森学院的奖学金分Need-aware和Merit-based两种类型。2015学年共有65名国际学生获得奖学金总额为$2,147,000，平均金额$33,030，国际学生奖学金覆盖率约11.7%。*(1)</p><p>巴布森学院向国内学生提供有以下7种奖学金，包括：</p><ul>	<li>全球学者奖学金计划（Global Scholars Program）：属于Need-based奖学金，类型为Need-awre，可抵全额学费。是巴布森学院国际学生最主要的奖学金类型。该奖学金需要递交CSS Profile和资金证明，ED需在12月1日前，RD需在2月15日前递交上述材料；EA则不可以申请该奖学金*(8)</li>	<li>女性企业家领导奖学金（Center for Women&#39;s Entrepreneurial Leadership Scholarship）：属于Merit-based奖学金，可抵四分之一的学费。无需单独申请，自动随Offer发放，未详是否只有女生有机会获得该奖学金*(9)</li>	<li>多样化领导奖学金（Diversity Leadership Award）：属于Merit-based奖学金，可抵全额或半额学费。该奖学金无需单独申请，自动随Offer发放*(10)</li>	<li>校长奖学金（Presidential Scholarship）：属于Merit-based奖学金，可抵全额学费，每年有20个名额。该奖学金无需单独申请，自动随Offer发放*(11)</li>	<li>韦斯曼奖学金（Weissman Scholarship）：属于Merit-based奖学金，可抵全额学费。该奖学金需要单独申请，需要递交额外的奖学金申请材料。该奖学金要求申请者的班级排名在不低于前5%，并拥有优异的AP或IB课程成绩*(12)(13)</li>	<li>主任奖学金（Dean&#39;s Scholarship）：仅面向老生开放，新生不可申请*(14)</li>	<li>菁英项目奖学金（Honors Program Scholarship）：仅面向老生开放，新生不可申请*(14)</li></ul><p><strong>联系方式</strong></p><p><strong>Admission Office</strong><strong>：</strong></p><p>231 Forest Street</p><p>Babson Park, MA&nbsp; 02457-0310</p><p><strong>Phone:</strong> (781) 239-5522</p><p><strong>Fax:</strong> (781) 239-4135</p><p><strong>Email:</strong> ugradadmission@babson.edu</p><p><strong>Contact:</strong> Courtney Minden, Director of Undergraduate Admission*(1)</p><h2>转学申请</h2><p><strong>基本信息：</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:102px">			<p>TOEFL要求</p>			</td>			<td style="width:85px">			<p>100</p>			</td>			<td style="width:107px">			<p>GPA要求</p>			</td>			<td style="width:74px">			<p>平均：3.7</p>			</td>			<td style="width:122px">			<p>申请截止日期</p>			</td>			<td style="width:79px">			<p>3月15日</p>			</td>		</tr>		<tr>			<td style="width:102px">			<p>IELTS要求</p>			</td>			<td style="width:85px">			<p>7.0</p>			</td>			<td style="width:107px">			<p>SAT要求</p>			</td>			<td style="width:74px">			<p>Not Required</p>			</td>			<td style="width:122px">			<p>开学时间</p>			</td>			<td style="width:79px">			<p>8月-9月</p>			</td>		</tr>		<tr>			<td style="width:102px">			<p>最高可转学分</p>			</td>			<td style="width:85px">			<p>-</p>			</td>			<td style="width:107px">			<p>最低学分要求</p>			</td>			<td style="width:74px">			<p>-</p>			</td>			<td style="width:122px">			<p>可申请学期</p>			</td>			<td style="width:79px">			<p>秋季、春季</p>			</td>		</tr>		<tr>			<td style="width:102px">			<p>申请人数</p>			</td>			<td style="width:85px">			<p>300</p>			</td>			<td style="width:107px">			<p>录取人数</p>			</td>			<td style="width:74px">			<p>47</p>			</td>			<td style="width:122px">			<p>录取率</p>			</td>			<td style="width:79px">			<p>15.7%</p>			</td>		</tr>	</tbody></table><p>*(15)</p><p>注：</p><p>（1）巴布森学院对转学申请者未设定最低GPA要求，如考虑转学分，单门课程GPA须在2.0以上</p><p>（2）春季学期10月15日申请截止，同年11月下旬出录取通知；秋季学期3月15日截止，同年5月上旬出录取通知</p><p><strong>申请说明</strong></p><p>巴布森学院只要求申请者读完大学第一学期，便可以转学生的身份申请。秋季和春季学期均可以转学。一般每年秋季学期招收50名，春季学期招收20名转学生。转学申请的竞争十分激烈，录取学生的平均GPA多在3.7分以上。未详国际学生转学生是否有机会获得奖学金。*(15)</p><h2>专业设置</h2><p>巴布森学院设有以下27个专业方向（Concentrations），每个学生都可以选择其中2个作为自己的专业方向：</p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:14.1%">			<p>专业名称</p>			</td>			<td style="width:31.04%">			<p>专业英文名</p>			</td>			<td style="width:16.54%">			<p>专业名称</p>			</td>			<td style="width:38.32%">			<p>专业英文名</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p><a href="http://www.qianmu.org/会计" target="_blank">会计</a></p>			</td>			<td style="width:31.04%">			<p><a href="http://www.qianmu.org/会计" target="_blank">Accounting</a></p>			</td>			<td style="width:16.54%">			<p>司法、公民与社会责任</p>			</td>			<td style="width:38.32%">			<p>Justice, Citizenship, and Social Responsibility</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>美国研究</p>			</td>			<td style="width:31.04%">			<p>American Studies</p>			</td>			<td style="width:16.54%">			<p>领导</p>			</td>			<td style="width:38.32%">			<p>Leadership</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>商业分析</p>			</td>			<td style="width:31.04%">			<p>Business Anayltics</p>			</td>			<td style="width:16.54%">			<p>法律研究</p>			</td>			<td style="width:38.32%">			<p>Legal Studies</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>计算与数学金融</p>			</td>			<td style="width:31.04%">			<p>Computational and Mathematical <a href="http://www.qianmu.org/金融" target="_blank">Finance</a></p>			</td>			<td style="width:16.54%">			<p>文学与<a href="http://www.qianmu.org/视觉艺术" target="_blank">视觉艺术</a></p>			</td>			<td style="width:38.32%">			<p>Literary and Visual Arts</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>经济学</p>			</td>			<td style="width:31.04%">			<p><a href="http://www.qianmu.org/经济学" target="_blank">Economics</a></p>			</td>			<td style="width:16.54%">			<p><a href="http://www.qianmu.org/市场营销" target="_blank">市场营销</a></p>			</td>			<td style="width:38.32%">			<p><a href="http://www.qianmu.org/市场营销" target="_blank">Marketing</a></p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>企业管理</p>			</td>			<td style="width:31.04%">			<p>Entrepreneurship</p>			</td>			<td style="width:16.54%">			<p>规划、分析与控制</p>			</td>			<td style="width:38.32%">			<p>Planning, Analysis, and Control</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>环境可持续发展</p>			</td>			<td style="width:31.04%">			<p>Environmental Sustainability</p>			</td>			<td style="width:16.54%">			<p>计量方法</p>			</td>			<td style="width:38.32%">			<p>Quantitative Methods</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>金融</p>			</td>			<td style="width:31.04%">			<p>Finance</p>			</td>			<td style="width:16.54%">			<p><a href="http://www.qianmu.org/房地产" target="_blank">房地产</a></p>			</td>			<td style="width:38.32%">			<p><a href="http://www.qianmu.org/房地产" target="_blank">Real Estate</a></p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>全球与区域研究</p>			</td>			<td style="width:31.04%">			<p>Global and Regional Studies</p>			</td>			<td style="width:16.54%">			<p>零售<a href="http://www.qianmu.org/物流管理" target="_blank">物流管理</a></p>			</td>			<td style="width:38.32%">			<p>Retail Supply Chain <a href="http://www.qianmu.org/管理学" target="_blank">Management</a></p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>全球商业管理</p>			</td>			<td style="width:31.04%">			<p>Global Business Management</p>			</td>			<td style="width:16.54%">			<p>科学与社会</p>			</td>			<td style="width:38.32%">			<p>Science and Society</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p><a href="http://www.qianmu.org/历史" target="_blank">历史</a>与政治</p>			</td>			<td style="width:31.04%">			<p>Historical and Political Studies</p>			</td>			<td style="width:16.54%">			<p>统计建模</p>			</td>			<td style="width:38.32%">			<p>Statistical Modeling</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>身份与多样性</p>			</td>			<td style="width:31.04%">			<p>Identity and Diversity</p>			</td>			<td style="width:16.54%">			<p>战略管理</p>			</td>			<td style="width:38.32%">			<p>Strategic Management</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>信息技术管理</p>			</td>			<td style="width:31.04%">			<p>Information Technology Management</p>			</td>			<td style="width:16.54%">			<p>科技创业与设计</p>			</td>			<td style="width:38.32%">			<p>Technology Entrepreneurship and Design</p>			</td>		</tr>		<tr>			<td style="width:14.1%">			<p>国际商务环境</p>			</td>			<td style="width:31.04%">			<p>International Business Environment</p>			</td>			<td style="width:16.54%">&nbsp;</td>			<td style="width:38.32%">&nbsp;</td>		</tr>	</tbody></table><p>*(16)</p><p>外部链接：</p><ul>	<li>巴布森在线申请：<a href="http://www.qianmu.org/redirect?code=qrTydPmbkDUFucml______qLpADnBAIzaNVdYAYTjiZyMfHJpeHwtkrI-3rYJar_9TwQd7pAgcGaF" target="_blank">Babson Application​</a></li>	<li>ED协议表：<a href="http://www.qianmu.org/redirect?code=wrYmhlZfw5T1USJFZZZZZM6JYiWKOwq8zuX7X7QI_4_PpML3TxFaHwCtjTgY-aGlWbG7VvsJeviu4Al0VUdGM-tOo0hFGV6asd8PTYPoJgBW8gsTe1D_GAdhi1qlzkWl376W_V2z3Tg7FfKE5aDsGw-yhc0eS6syJUISJFq5UuTDokdcxu3" target="_blank">ED Agreement</a>(PDF)&nbsp;</li>	<li>本科课程设置概览：<a href="http://www.qianmu.org/redirect?code=orDtO5ahLa4bV76tjjjjjzPTYGJphQcu4kv2v25nSzTNaHhZ7FZHmPx9zrjEvcZwC9Z0p0Q7j0_tnsbMWjE4eBRnZHO_LH94Bsnrpt05XcHPzCvl-JRATnbtTfjiGgUDxRYKW028lSr7ymXSVxzTHYTbhR1U9ZcXER9Yuw4oZYSmGRdY" target="_blank">The Undergraduate Curriculum At a Glance</a>(PDF)</li></ul><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=-rGz4Of7kjzL8WwE_EawJrP6OmOMhZ5mcakqyjq0_1LFHdpQ2UQuEBGCLgUxpF8msDhR6iDq2LzQCN2bFEPhI3PiGRwdov3H9oyrnwvYGBrBQFQpmo8D5yKW__1c7ZWhwq3PMNVmc_bCmeI6" target="_blank">Babson College</a> College Board</p><p>(2) <a href="http://www.qianmu.org/redirect?code=dr1GqVdxkwxMeydslllllHdwNbk7UeE3FfFfjgLo_VDcC51q_bJ3CrPc_tD7CtEcaHdzIAqsKkqauFYsSF8sKUmHgkQdO5YOzU8stUYyAFz3t0D4EFYaKWj3MrqIEVbwhVPwh9vwXkHDuecFNvc2isBhG1OeK" target="_blank">STANDARDIZED TESTING</a> Babson College</p><p>(3) <a href="http://www.qianmu.org/redirect?code=Lr8sWSLPLen43qD7y_hGSuwZlqFfnn5qGobdPXkxrNNaj1-DRS6TTAztCHwvyuyBpWiwTy3-ap1pSLRQwznz4aaVlHqyuyrwmn387ceqRcm9sa2UrNmnx8e_KS6jviz2NF-5hf8oZh9tNOzFaALcqRoT" target="_blank">Appliying To Babson &amp; Application Checklist</a> Babson College</p><p>(4) <a href="https://www.usnews.com/best-colleges/babson-college-2121">Babson College</a> USNEWS</p><p>(5) <a href="http://www.qianmu.org/redirect?code=zrQ-nH7GLmpEbhPTaaaaalPyEZXS_dbxG0qyqyWsvzJA9N5_gt5sWBOBDBOz9N5680qE4d16PzjNrzrcxsNzfb9yNR7VBwC6E24znHp53LqBAGCaAH_VwQ4zUfel42sEwQgQxeZtR59" target="_blank">Babson College</a> Princetion Review</p><p>(6) <a href="http://www.qianmu.org/redirect?code=_r75g1xAkawhomRiY3mqX_RXR_4jm3X_6gzZ2Ewo3yCZ70NQ-_ZAeIQNAmPWE1ouEs3YlnqzSu7Y32hhOZACO_HNmDQNBFCuAsFhlE" target="_blank">ACADEMICS</a> Babson College</p><p>(7) <a href="http://www.qianmu.org/redirect?code=QrzUA2Q7wzOaRdRg333332Yx5Tsj9M0DEyEyh_drfvW61ibp6CrQB7qYkCfjZ7fOkT1QkVrfZV8K3CrQ3UrfBHrO8UejBCt76CvZqibYc5M9pLnulQHoByJfBgHgFta4uEaf2X" target="_blank">INTERVIEWS AT BABSON</a> Babson College</p><p>(8) <a href="http://www.qianmu.org/redirect?code=FrFYCWPLwolVBYPbNNNNNbGVZWuwBGQgEdRgRgwLCnonDFWcIky9cQ_35N7BhNuXV8uEM7Y_XrZjXzh8ngu8wMSsYONu8q66-UK4EgLYh0g7tAHDVd1wpNA_WKQomiWvxTQ8lzHv4mGO5Z5j7tyTm89j2tinw1IHLzC3sqSE6pgFUwhYikx1T3CPczrqo2HqcY5XkaeXRrLP2pfL_-aLiZH_b" target="_blank">GLOBAL SCHOLARS PROGRAM</a> Babson College</p><p>(9) <a href="http://www.qianmu.org/redirect?code=ErbpefwOLi1FDusvcccccCoD1JbA-H9duBOROR-3857fO8lxaIBxSKsucIWw7OkENlkhzhInXoN2XI0ns5GnB6sivIB8MeTxzJyWNj-ZQ18NP30MPRSvO2_6sLvdL-QYM1SywhxIPHQZRJWYOJx1Ms8Z2_iZ2joGr9qGg-9f_gY2O-8ywy0WHro" target="_blank">Center for Women&#39;s Entrepreneurial Leadership Scholarship</a> Babson College</p><p>(10) <a href="http://www.qianmu.org/redirect?code=zrQ-nH7vLJD7tVTPxxxxxr2YGJphQcuOlNlNECKz7yV_iqRI7J6OiST_7sVhisu_K-pN7spY1Jvw6JKLh2vHYFU7kFSmQJUHQ-U76bH7JFxLt61RiMD9UOfnx0DRFWfnxOg9cWfCSIFqOdaAokcA7PAiuKNi-gKluWAFrkO5oseQZ" target="_blank">Diversity Leadership Award</a> Babson College</p><p>(11) <a href="http://www.qianmu.org/redirect?code=srULj0BhLa4bV7Y0CCCCCeFW50qNKtiOV-EQEQa_ZnRI1JMjKcKlgB8wk1JDLiFe-pFdxtC6gyjAgiXDiBUD6Rg3ot7OZ_ScHaYNcEm9nRBhp2jNp7i31daTWhwy0eaNXZmkV8bw1tMnuauNdneG4cVSm4cEP_hT_Ykz_sHcHSy_HvdU6cMUkaKEkOLuQG" target="_blank">Presidential Scholarship</a> Babson College</p><p>(12) <a href="http://www.qianmu.org/redirect?code=2rNMmQLvke4w3tBOu7dv8JmW-kE1nHB3WsNDSZIEC3VyE6iIpPMghQctTgmLpnUmWr2Yg_aqoymDm5M28X7tQPCg7M3LRB3xWb_XB5tC7hywMgovmk9nmmWJa_SBikJcmAYPS89oeKGRn7tXgi_Q_XEvDUrS8_XHbjptbSU2ZtJdjrPUYyUJ6GnqC7zS" target="_blank">Weissman Scholarship</a>&nbsp;Babson College</p><p>(13) <a href="http://www.qianmu.org/redirect?code=0rRNYsUDkbcX29k5BBBBH0dS2fVzi5M7wxpxpomaht_4nSErItVWwSADntk4iSk7naQzptkz2tQrwt5_b2kxn867q-6hD497n4Xf_z2sgCYt9YKIyXTumshtpDTeyYRtgCrlPCRugr_laXpy_fPUps8y_fPhzsXypQr3WBbjpQA38LlQbNDw0V6JYie" target="_blank">Weissman Scholarship Selection Criteria</a> Babson College</p><p>(14) <a href="http://www.qianmu.org/redirect?code=3rHk7m1QLVxrL0YuZ5UlWNS0f7zQhmK-nlLC_tsFwFp71Tz3VhJqAv17MIS-ePiiw75hWq6vv7EZS18wn-q6WtEHSSBm-PtKMSRygLft_lTzmmLbSHIPciwS7qUkfHfxfBS1lx2Rq2gtEHIjbROhaxEGel3vgroGb2sP9DtKHIjaSrn-mmjf_xSsaRbbAjL1NhiW7vvoI" target="_blank">FINANCIAL AID FOR INTERNATIONAL STUDENTS</a> Babson College</p><p>(15) <a href="http://www.qianmu.org/redirect?code=Nr20uKHWw_8kIpMsSYS1ORBYrWBh3JphxaPtWetizHKHLHj-dOyk_1dgZUfsmUkH-jih6Z51WXeiOgnZNdYTjB7OHjtfAozFAqGx2UhFD__4S8N5zHA4QHmUa1mHAGx6mCFMgU4cXzPh6ZncTKGAFFh" target="_blank">TRANSFER STUDENTS</a> Babson College</p><p>(16) <a href="http://www.qianmu.org/redirect?code=pr9ExTIVwAbLSxsfrrkM6VfwpHU8fDedG_AFBjE_B8rhqK3bHhNJPIZk2qOAliRHQtMBZlx4-x5tOFo4R7Uu51-iU_Rl80dRpASqKGPfLZ0DSKXPOeOuArgu5F7JuGe7isFF5TqAlBA1-3Cpjr0Dfo6Y2U45Pz_RubiazLFHgJo5HJGBZelU-jPK" target="_blank">The Undergraduate Curriculum At a Glance</a> Babson College</p><p>&nbsp;</p><h1>研究生申请</h1><p><strong>项目设置</strong></p><p>巴布森学院共开设有以下7个研究生项目，其中4个全日制项目，3个非全日制项目，具体如下：</p><ul>	<li>一年制MBA项目（One-Year MBA Program）：属于全日制项目</li>	<li>二年制MBA项目（Two-Year MBA Program）：属于全日制项目</li>	<li>夜校MBA项目（Evening MBA Program）：属于非全日制项目</li>	<li>混合式MBA项目（Blended Learning MBA Program）：属于非全日制项目</li>	<li>企业领导硕士（Master of Science in Management in Entrepreneurial Leadership (MSM)）：属于全日制项目</li>	<li>会计硕士（Master of Science in Accounting）：属于全日制项目</li>	<li>高级管理证书课程（Certificate of Advanced Management）​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​：属于非全日制项目*(1)</li></ul><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=IrnDV7PPkVnHXepvwy9Ntv_ZhSvsg9EUWXmb_3hARHQlwOIU1RWsUeCtDc_xerDavnt_GeyLnva4UG7rU_sxp_ee27P7raUUJeM_nqpREsGROLFQCY8UXvzw" target="_blank">GRADUATE PROGRAMS</a> Babson College</p><h2>会计硕士</h2><p><strong>基本信息：</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:17.1%">			<p>USNEWS排名</p>			</td>			<td style="width:11.92%">			<p>62</p>			</td>			<td style="width:17.1%">			<p>学费</p>			</td>			<td style="width:15.8%">			<p>$46,500</p>			</td>			<td style="width:17.32%">			<p>申请截止日期</p>			</td>			<td style="width:20.74%">			<p><a href="http://www.qianmu.org/滚动申请" target="_blank">滚动申请</a></p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>TOEFL要求</p>			</td>			<td style="width:11.92%">			<p>-</p>			</td>			<td style="width:17.1%">			<p>GPA要求</p>			</td>			<td style="width:15.8%">			<p>无</p>			</td>			<td style="width:17.32%">			<p>可申请学期</p>			</td>			<td style="width:20.74%">			<p>春季、夏季</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>IELTS要求</p>			</td>			<td style="width:11.92%">			<p>-</p>			</td>			<td style="width:17.1%">			<p><a href="http://www.qianmu.org/GMAT" target="_blank">GMAT</a>要求</p>			</td>			<td style="width:15.8%">			<p>Required</p>			</td>			<td style="width:17.32%">			<p>工作经验要求</p>			</td>			<td style="width:20.74%">			<p>无</p>			</td>		</tr>	</tbody></table><p>*(1)(2)(3)</p><p>注：</p><p>（1）此处的排名是2016年USNEWS商学院的排名</p><p>（2）TOEFL与IELTS要求不详</p><p>（3）巴布森学院会计硕士项目春季和夏季学期均可申请：春季学期10月1日申请截止；夏季学期3月1日申请截止。实行滚动录取方式，录满即止，未录满则一直招生*(1)</p><p>（4）2014年，巴布森学院硕士项目（含企业领导硕士和会计硕士项目）毕业生平均起薪为55,000美元。该项目毕业生就业的公司包括普华永道、德勤、毕马威、安永等著名会计事务所*(4)</p><p>（5）2015年夏季学期，该项目学费为$1,550/学分，按总学分30个计算，一年学费为$46,500</p><p><strong>申请说明</strong></p><p>巴布森学院会计硕士（Master of Science in Accounting）：为期1年，共需修读30个学分，包括18个必修学分和12个选修学分。该项目要求申请者拥有相当的会计专业基础，要求申请者学习过财务会计、中级会计、税务会计（Tax Accounting，国际学生亦需以美国税务为学习对象）。具体申请方法可参见下方外部链接中的申请指南。*(5)(6)</p><p>该项目受CPA认证，其毕业生可以获得参加美国注册<a href="http://www.qianmu.org/会计师与审计师" target="_blank">会计师</a>资格考试的资格。但该项目并非单纯为CPA考试做准备的，相反，该项目会将会计知识更深入于企业管理之中。&mdash;&mdash;也因为该项目的定位，所以尽管该项目不要求申请者拥有工作经验，但实际入学学生平均都有8年的工作经验。该项目要求申请者递交GMAT成绩，但并无最低分数要求。*(5)</p><p><strong>录取统计</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td colspan="4" style="width:100.0%">			<p>2014年5月入学统计：</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>学生人数</p>			</td>			<td style="width:20.44%">			<p>29</p>			</td>			<td style="width:26.96%">			<p>国际学生比例</p>			</td>			<td style="width:19.72%">			<p>28%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>平均GPA</p>			</td>			<td style="width:20.44%">			<p>3.41</p>			</td>			<td style="width:26.96%">			<p>女生比例</p>			</td>			<td style="width:19.72%">			<p>69%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>GMAT均分</p>			</td>			<td style="width:20.44%">			<p>-</p>			</td>			<td style="width:26.96%">			<p>平均工作经验</p>			</td>			<td style="width:19.72%">			<p>8年</p>			</td>		</tr>	</tbody></table><p>*(5)</p><p><strong>费用与奖学金</strong></p><p>巴布森学院研究生项目（包括MBA项目和其它硕士项目）向国际学生提供有Merit-based奖学金以及少量的Need-based奖学金。Merit-based奖学金无需单独申请，自动随Offer发放。具体奖学金列表可见下方的外部链接。*(7)</p><p>外部链接：</p><ul>	<li>奖学金列表：<a href="http://www.qianmu.org/redirect?code=9rpcSXLYwPxI16Dz77777rbpAb5PTjHRQ-Q-o3Z1UnVKLyvhUbDRL09KUNVPSX6PunOtHk6tikOcxkjZsYOC78jpHkjtsTOIlkH675O_uoL2lKH_78I2soDG4CAYZuQz1WfDbC" target="_blank">GRADUATE AWARD DETAILS</a></li>	<li>申请指南：<a href="http://www.qianmu.org/redirect?code=3rHk7mgCwBdbNFt9XXXXXq0cI0SLn1fFNQNQYl7OKW85GEwBK0JFNqY5GQYOKSfBN-XbRecbDmjNEmQiDoAgYxE-_A0vELQLHoX-YskZHz0hpaKLHrROiFZ9cUzriqzEwszHie" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</li></ul><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=Nr20uKH_wWuxTywkIIII7D6-0gSnU1vrVJaEaEBm3q6wbsO7zQ6nuJOWFs6-bm_mbMOFej_TcNn1cP0Re5_CStdReUSlkH675Opskjpuo6csKEclK4LyW" target="_blank">BABSON GRADUATE PROGRAMS APPLICATION TIMETABLE</a> Babson College</p><p>(2) <a href="http://www.qianmu.org/redirect?code=jr4AsclMwr-KevkYkQ2lxyBwL2gju1DBe24j0EP71SFhLhzYJzLa0ayIOXOCSy8XVNTBixOY05x7FqqBAPSJEzea636rZUzoS6Bw9Z7OPSEEnrBrOTStOAJBPFqV_xKNEmfwP3" target="_blank">Tuition and Financing 2015 MSA</a> Babson College</p><p>(4) <a href="http://www.qianmu.org/redirect?code=8rL6TCP8L3NxwcogwwwwwLdAN1MDVaz9n209096434Bs8rKFHWsi4eBgkCj-myUuF9_qlKTjBKZiBPebhzZb_gJv1aLRATn0x3kg2o8o75TqCwuzvxNOivt1A4B4nK-kcJol_TXH_Z4e82rOj" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</p><p>(4) <a href="http://www.qianmu.org/redirect?code=mrtw23u2wjNSr87XDDDs88ZU_9PRajXkcKdTnT8JRAjxc1_9NbjY7EnUOTsJP5gDdqg25sS0Cgkqhw-QhZ9QgKOQ6MV1gu-sfpVQaw2QSK2Eg7GYMn3mNjTO1i4cNW0m2uEYrsSANkS2FsyAFTUeoe9bGv1" target="_blank">MS CAREER OUTCOMES</a> Babson College</p><p>(5) <a href="http://www.qianmu.org/redirect?code=nrIeztg3kCscvuwlDElx6X3pFjhdIOY_4MEpPkbqY1Uw8uJ_AREiSVhN9Tm_kkXllBb_sQ91PazqR3ueDM3Y6UueBBw859mSkxfFPeM3PaLv0M7lRSJSlhKaxmMC3W" target="_blank">MASTER OF SCIENCE IN ACCOUNTING PROGRAM</a> Babson College</p><p>(6) <a href="http://www.qianmu.org/redirect?code=0rRNYshEwgqXDRnGiiiiiiV4Uu2GdY4qdEnTnT8JR7KeQxMigEzE8vGufwLMFZAj7Zjb4d6rOdWeBj2dSlrhA6HNhdD0rkRW3Z2zyPFkdbgJK4n59" target="_blank">Master of Science in Accounting Curriculum</a> Babson College</p><p>(7) <a href="http://www.qianmu.org/redirect?code=xrVOpgSvwlsJdMN7FIoVqpfiUoMPDcUfgWS-H-ejdNGAMOFkmzVe9rQxpiBaL3eVWyyOMH8ZBzL-haOo60-4Zz9eWo59iTOwJqaB2dmOzHMN_Blwdm-ArnFoeOMjaCq2dEFBy_" target="_blank">GRADUATE FINANCIAL AID</a> Babson College</p><h2>企业领导硕士</h2><p><strong>基本信息：</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:17.1%">			<p>USNEWS排名</p>			</td>			<td style="width:11.92%">			<p>62</p>			</td>			<td style="width:17.1%">			<p>学费</p>			</td>			<td style="width:15.8%">			<p>$49,672</p>			</td>			<td style="width:17.32%">			<p>申请截止日期</p>			</td>			<td style="width:20.74%">			<p>6月1日</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>TOEFL要求</p>			</td>			<td style="width:11.92%">			<p>-</p>			</td>			<td style="width:17.1%">			<p>GPA要求</p>			</td>			<td style="width:15.8%">			<p>无</p>			</td>			<td style="width:17.32%">			<p>可申请学期</p>			</td>			<td style="width:20.74%">			<p>秋季</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>IELTS要求</p>			</td>			<td style="width:11.92%">			<p>-</p>			</td>			<td style="width:17.1%">			<p>GMAT要求</p>			</td>			<td style="width:15.8%">			<p>Required</p>			</td>			<td style="width:17.32%">			<p>工作经验要求</p>			</td>			<td style="width:20.74%">			<p>无</p>			</td>		</tr>	</tbody></table><p>*(1)(2)(3)</p><p>注：</p><p>（1）此处的排名是2016年USNEWS商学院的排名</p><p>（2）TOEFL与IELTS要求不详</p><p>（3）巴布森学院企业领导硕士项目仅在秋季学期招生，共分五轮申请，具体可见下方的申请说明</p><p>（4）2014年，巴布森学院硕士项目（含企业领导硕士和会计硕士项目）毕业生平均起薪为55,000美元*(3)</p><p><strong>申请说明</strong></p><p>巴布森学院企业领导硕士（Master of Science in Management in Entrepreneurial Leadership (MSM)）：为期9个月，分2个学期，每个学期为期18周，共需修读30个学分。该项目要求申请者本科毕业，不限专业，需要递交GMAT成绩但并无最低分数要求。具体申请方法可参见下方外部链接中的申请指南。*(4)(5)</p><p><strong>录取统计</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td colspan="4" style="width:100.0%">			<p>2014年5月入学统计：</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>学生人数</p>			</td>			<td style="width:20.44%">			<p>49</p>			</td>			<td style="width:26.96%">			<p>国际学生比例</p>			</td>			<td style="width:19.72%">			<p>12%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>平均GPA</p>			</td>			<td style="width:20.44%">			<p>3.31</p>			</td>			<td style="width:26.96%">			<p>女生比例</p>			</td>			<td style="width:19.72%">			<p>37%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>GMAT均分</p>			</td>			<td style="width:20.44%">			<p>611</p>			</td>			<td style="width:26.96%">			<p>平均工作经验</p>			</td>			<td style="width:19.72%">			<p>8年</p>			</td>		</tr>	</tbody></table><p>*(4)</p><p><strong>申请时间</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:33.32%">			<p>申请轮次</p>			</td>			<td style="width:33.34%">			<p>申请截止日期</p>			</td>			<td style="width:33.34%">			<p>录取通知日期</p>			</td>		</tr>		<tr>			<td style="width:33.32%">			<p>第一轮</p>			</td>			<td style="width:33.34%">			<p>11月1日</p>			</td>			<td style="width:33.34%">			<p>12月19日</p>			</td>		</tr>		<tr>			<td style="width:33.32%">			<p>第二轮</p>			</td>			<td style="width:33.34%">			<p>1月5日</p>			</td>			<td style="width:33.34%">			<p>2月20日</p>			</td>		</tr>		<tr>			<td style="width:33.32%">			<p>第三轮</p>			</td>			<td style="width:33.34%">			<p>3月2日</p>			</td>			<td style="width:33.34%">			<p>4月10日</p>			</td>		</tr>		<tr>			<td style="width:33.32%">			<p>第四轮</p>			</td>			<td style="width:33.34%">			<p>4月1日</p>			</td>			<td style="width:33.34%">			<p>5月1日</p>			</td>		</tr>		<tr>			<td style="width:33.32%">			<p>第五轮</p>			</td>			<td style="width:33.34%">			<p>6月1日</p>			</td>			<td style="width:33.34%">			<p>6月18日</p>			</td>		</tr>	</tbody></table><p>*(1)</p><p><strong>费用与奖学金</strong></p><p>巴布森学院研究生项目（包括MBA项目和其它硕士项目）向国际学生提供有Merit-based奖学金以及少量的Need-based奖学金。Merit-based奖学金无需单独申请，自动随Offer发放。具体奖学金列表可见下方的外部链接。*(6)</p><p>外部链接：</p><ul>	<li>奖学金列表：<a href="http://www.qianmu.org/redirect?code=Lr8sWSLBLpMoTs_ZtttttGgmvSc8nsUQtrGrG1OjuZhR-XioyZcdtXAP-Z0RnX0Q-jY8xyjAgdj690jnDBw6RzJnoyjngBm6aNjyAzW6Vt1v8Ipugq4KLaTlk1pnyE4FNq4Jc-" target="_blank">GRADUATE AWARD DETAILS</a></li>	<li>申请指南：<a href="http://www.qianmu.org/redirect?code=5rk_5oGYLclZ6RfSuuuuupEV-Ek6c1Jqw_w_2FDZ5tIrgxyO5EXqwp2rg_cNcEOU68dG6v1GYuFUqWeXAtlLviyWBfLg5WFXF_l7BiP6edD9z8aAW-D9wIaNedfMwWfqusfAwP" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</li></ul><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=PrgaXqI-kSynchb9LLLLLksVPdwKsXYbcDcDQjRT-GCfOyEr-dmbW7g1yfput43JDeE7v4Bp_XRpWnx7j42Qrkx7LsRXJ4A7_nRp_eHJfnwzRmXqTiy3" target="_blank">BABSON GRADUATE PROGRAMS APPLICATION TIMETABLE</a> Babson College</p><p>(2) <a href="http://www.qianmu.org/redirect?code=frh1ZEiPwYZ8xpoiqqqqqv-1O7K3g6tAVqIAIA3fsUXDjLJaHM6igLY2574GItxeCA4K6i5OZivzZFXDAbwDWGK6tBUDu1PEdKgw6p-VCYwFCkxjCTb25zL2Jh5Zk_LtWheob0N4LxhWhkItaB1q-jrVJ" target="_blank">Tuition and Financing 2015-2016 MSM</a> Babson College</p><p>(3) <a href="http://www.qianmu.org/redirect?code=SrWl9LugkKhq9sIeStfg93mbRDQygBcYeHc7UGdn3FoC0vKWiCYOUOaPcI_s021FowvmTuJB6H0mRDDJvGxQG3K0a3-3ojCdODbarWuPsLmlR3fgYLWnLDoKz_gdVw70bEPcDWqbswcPwOWdcYQYmXS9b" target="_blank">APPLICATION INSTRUCTIONS</a> Babson College</p><p>(4) <a href="http://www.qianmu.org/redirect?code=7r_i3IVtkO9fNDb9LLLLLkpyImrY_M6VRc7U7U2zbdo_VDcC51ZfBQIjMDGueRJt43JDslPDkt9XhwxeYbE1gGUvqRI34CTrz81REKtRbr-jwKepniHyge-WgO176GFE6-1RXufFhRTSkzvBq8v7D10u" target="_blank">MSM IN ENTREPRENEURIAL LEADERSHIP</a> Babson College</p><p>(5) <a href="http://www.qianmu.org/redirect?code=grPZ_x3RwySz71M9ro3eBqFs1op_YqPFkYSXMKT2hVqZrLVojzFV5ZjwP6dkqIKVXvWFzNSj8lCl1VO_0zPYUdLq4BqoTUz9r7Xu67dBjtmdF8_gz1IB9IjTp" target="_blank">MASTER OF SCIENCE IN MANAGEMENT PROGRAM Curriculum</a> Babson College</p><p>(6) <a href="http://www.qianmu.org/redirect?code=XrChP9xBLpMoTd5Gzzzzzwq-Pfx_Digq3QH8H8lunijD03qTmBjDx3ponEZGNM3Yot3xd9Xa7HVr7AN3e-p3mQ3gROWB7yVWsH7NS8f2GaMm3oJGQLDaqJHi_pD-JT" target="_blank">GRADUATE FINANCIAL AID</a> Babson College</p><h2>一年制MBA</h2><p><strong>基本信息：</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:17.1%">			<p>USNEWS排名</p>			</td>			<td style="width:11.92%">			<p>62</p>			</td>			<td style="width:17.1%">			<p>学费</p>			</td>			<td style="width:15.8%">			<p>$74,843</p>			</td>			<td style="width:17.32%">			<p>申请截止日期</p>			</td>			<td style="width:20.74%">			<p>滚动录取</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>TOEFL要求</p>			</td>			<td style="width:11.92%">			<p>Required</p>			</td>			<td style="width:17.1%">			<p>GPA要求</p>			</td>			<td style="width:15.8%">			<p>无</p>			</td>			<td style="width:17.32%">			<p>可申请学期</p>			</td>			<td style="width:20.74%">			<p>夏季</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>IELTS要求</p>			</td>			<td style="width:11.92%">			<p>Required</p>			</td>			<td style="width:17.1%">			<p>GMAT要求</p>			</td>			<td style="width:15.8%">			<p>Required</p>			</td>			<td style="width:17.32%">			<p>工作经验要求</p>			</td>			<td style="width:20.74%">			<p>无</p>			</td>		</tr>	</tbody></table><p>*(1)(2)(3)</p><p>注：</p><p>（1）此处的排名是2016年USNEWS商学院的排名</p><p>（2）TOEFL与IELTS要求不详</p><p>（3）巴布森学院一年制MBA项目共分三轮申请：第一轮11月1日申请截止，12月19日出录取通知；第二轮1月5日申请截止，2月20日出录取通知；第三轮3月2日申请截止，3月20日出录取通知。该项目实行滚动录取方式，录满即止，未录满则一直招生*(1)</p><p>（4）2014年，巴布森学院MBA项目（包括一年制和两年制项目），85%的学生在毕业后3个月内获得Offer，16%的学生选择自己创业，毕业生平均起薪89,341美元*(4)</p><p><strong>申请说明</strong></p><p>巴布森学院一年制MBA项目（One-Year MBA Program）：为期1年，面向的是本科商科或经济学专业毕业的学生，要求申请者拥有一定的会计、金融、<a href="http://www.qianmu.org/统计学" target="_blank">统计学</a>、经济学、运营或市场营销等知识基础。该项目要求申请者递交GMAT成绩，但未设定有最低GMAT分数要求。该项目无需工作经验，本科毕业生可直接申请。具体申请方法可参见下方外部链接中的申请指南。*(5)</p><p><strong>录取统计</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td colspan="4" style="width:100.0%">			<p>2014年5月入学统计：</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>学生人数</p>			</td>			<td style="width:20.44%">			<p>61</p>			</td>			<td style="width:26.96%">			<p>国际学生比例</p>			</td>			<td style="width:19.72%">			<p>40%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>平均GPA</p>			</td>			<td style="width:20.44%">			<p>3.28</p>			</td>			<td style="width:26.96%">			<p>女生比例</p>			</td>			<td style="width:19.72%">			<p>38%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>GMAT均分</p>			</td>			<td style="width:20.44%">			<p>592</p>			</td>			<td style="width:26.96%">			<p>平均工作经验</p>			</td>			<td style="width:19.72%">			<p>5年</p>			</td>		</tr>	</tbody></table><p>*(5)</p><p><strong>费用与奖学金</strong></p><p>巴布森学院研究生项目（包括MBA项目和其它硕士项目）向国际学生提供有Merit-based奖学金以及少量的Need-based奖学金。Merit-based奖学金无需单独申请，自动随Offer发放。具体奖学金列表可见下方的外部链接。*(6)</p><p>巴布森学院2015-16学年一年制MBA项目的费用要求如下：</p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:16.24%">			<p>支出项目</p>			</td>			<td style="width:31.62%">			<p>项目英文名</p>			</td>			<td style="width:13.3%">			<p>2015夏季</p>			</td>			<td style="width:13.3%">			<p>2015秋季</p>			</td>			<td style="width:13.16%">			<p>2016春季</p>			</td>			<td style="width:12.4%">			<p>整体花费</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>学费</p>			</td>			<td style="width:31.62%">			<p>Tuition</p>			</td>			<td style="width:13.3%">			<p>$31,535</p>			</td>			<td style="width:13.3%">			<p>$24,060</p>			</td>			<td style="width:13.16%">			<p>$19,248</p>			</td>			<td style="width:12.4%">			<p>$74,843</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>住宿费</p>			</td>			<td style="width:31.62%">			<p>Housing (avg.)</p>			</td>			<td style="width:13.3%">			<p>$4,290</p>			</td>			<td style="width:13.3%">			<p>$6,435</p>			</td>			<td style="width:13.16%">			<p>$6,435</p>			</td>			<td style="width:12.4%">			<p>$17,160</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>餐费</p>			</td>			<td style="width:31.62%">			<p>Food (avg.)</p>			</td>			<td style="width:13.3%">			<p>$1,764</p>			</td>			<td style="width:13.3%">			<p>$2,647</p>			</td>			<td style="width:13.16%">			<p>$2,647</p>			</td>			<td style="width:12.4%">			<p>$7,058</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>书本费</p>			</td>			<td style="width:31.62%">			<p>Books and supplies (avg.)</p>			</td>			<td style="width:13.3%">			<p>$572</p>			</td>			<td style="width:13.3%">			<p>$960</p>			</td>			<td style="width:13.16%">			<p>$768</p>			</td>			<td style="width:12.4%">			<p>$2,300</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>个人花费</p>			</td>			<td style="width:31.62%">			<p>Personal (avg.)</p>			</td>			<td style="width:13.3%">			<p>$856</p>			</td>			<td style="width:13.3%">			<p>$1,285</p>			</td>			<td style="width:13.16%">			<p>$1,285</p>			</td>			<td style="width:12.4%">			<p>$3,426</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>交通费</p>			</td>			<td style="width:31.62%">			<p>Transportation (avg.)</p>			</td>			<td style="width:13.3%">			<p>$591</p>			</td>			<td style="width:13.3%">			<p>$887</p>			</td>			<td style="width:13.16%">			<p>$887</p>			</td>			<td style="width:12.4%">			<p>$2,365</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>医疗保险费</p>			</td>			<td style="width:31.62%">			<p>Health insurance (estimated)</p>			</td>			<td style="width:13.3%">			<p>$2,830</p>			</td>			<td style="width:13.3%">			<p>$0</p>			</td>			<td style="width:13.16%">			<p>$0</p>			</td>			<td style="width:12.4%">			<p>$2,830</p>			</td>		</tr>		<tr>			<td style="width:16.24%">			<p>合计</p>			</td>			<td style="width:31.62%">			<p>Total</p>			</td>			<td style="width:13.3%">			<p>$42,438</p>			</td>			<td style="width:13.3%">			<p>$36,274</p>			</td>			<td style="width:13.16%">			<p>$31,270</p>			</td>			<td style="width:12.4%">			<p>$109,962</p>			</td>		</tr>	</tbody></table><p>*(2)</p><p><strong>专业设置</strong></p><p>巴布森学院MBA项目（包括一年制和两年制）开设有以下6个专业方向，包括：</p><ul>	<li>商业分析（Business Analytics）</li>	<li>企业管理（Entrepreneurship）</li>	<li>金融（Finance）</li>	<li>全球管理（Global Management）</li>	<li>生命科学与医疗管理（Life Sciences &amp; Healthcare）</li>	<li>市场营销（Marketing）*(7)</li></ul><p>外部链接：</p><ul>	<li>奖学金列表：<a href="http://www.qianmu.org/redirect?code=jr4AscJNLT8196N5VYoD2zSLz8CwnvShcJ0XwJqFwW5ZYocHZrkbNeAZtIw-tbCM6-3ahzcTvrFBqAISnQbCAwTtErMz-XqwrSeAoQuhzieXRMUAwHtZzxcrxtLiK17Jc9t-Oq1Cw94rkbCS8YI2wv54d" target="_blank">GRADUATE AWARD DETAILS</a></li>	<li>申请指南：<a href="http://www.qianmu.org/redirect?code=Trq48pSLLK6SQa3RFDQfw7rknUuoZFHr9JNkNE_k-_gZC_X9nS26ZeIgDOq2TjY5PO2awUuI62khSgLZMX-tKr6yaJ60OIwZ2XkwWHMaa0ELbpWsh15eCCWP0qyoFqXyPstZ04YJ4wrSBLVF9-LOh9M63" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</li></ul><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=ArAjQuHTLNk2BlJj00000y5qb6WQZYV-ApAEAE7wPkV8EZBKAJfO5EXqgYGcVE5hHB5UXFdq805tIWsH7NS8fgCEbscK-BJgeKISMrtR9z-CpdTjxmy_Vou_9fxLT" target="_blank">BABSON GRADUATE PROGRAMS APPLICATION TIMETABLE</a> Babson College</p><p>(2) <a href="http://www.qianmu.org/redirect?code=8rL6TCPcLYq_ZB2yQgjNaVhJiP8brOnSjgNxr3vCq7E4ZVrReqGdpUIfhDhDzYvnZOrSA-Vriz3C-mCB0RnH5h5FQC0DyPS4hMSPfYTa-Hx_exQRhDFJX8ZZvrIfRv7VpFS3qZNPeJzqGDk9IfRBtyttzw8lUaA2Tm3GoRSAlMPP_1ewsTHvGQnqtyo1Emk" target="_blank">TUITION, PAYMENT POLICIES AND FINANCING OPTIONS BABSON MBA ONE-YEAR PROGRAM / 2015-2016</a> Babson College</p><p>(3) <a href="http://www.qianmu.org/redirect?code=grPZ_xndkfKZOCauYaYZY73vCnM1CF1CqV19TZKQC9zmRAAvHmf7DtJ6MPRk41I9RFAUg6XN_Amb3faEZngU6Rms4x1odlRm4FgJGPtR9z5A1pdEY_ATog6P0mflF-Jss8mflPNJ6MdmVRPJVrRPYT8Q7" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</p><p>(4) <a href="http://www.qianmu.org/redirect?code=9rpcSXF_LfWcHw21bbbbbvFj20R8M7BnY4Y4fhG3QplAHdrP80ZtCDRR2u6HOJxPMJoOvNwcInZGONZbMNodWN6fkSoYOJxPkNLGaNQdauoAkJ6Ga_6csBWZ71842tgBC_is27Cau41F3WgwrtO5oseQZ" target="_blank">MBA CAREER OUTCOMES</a> Babson College</p><p>(5) <a href="http://www.qianmu.org/redirect?code=ErbpefUEwgqXDKGZ4UC9RNfT_3P-JAIh9dBGE0c0BQUB7yFyDB_DVw6fNaB8DHLDf6EBLDowjfYphxaYOEhvRdsivsJEY5B_DBXjFUpdJhSz6AjizuDEkklbhFMXy07WP6hHdh" target="_blank">ONE-YEAR MBA PROGRAM</a> Babson College</p><p>(6) <a href="http://www.qianmu.org/redirect?code=IrnDV7P-kSyncpNSsssssg7VbZH3YA2y2XSFSFRLTQVDP7qKL0esw-L_P9SPwTBGxeBFT92X41PD4ST0IxQ0CFKt2OVbE30mYnJZa03x45aMQuUAg4-kiQWROHPxbJ" target="_blank">GRADUATE FINANCIAL AID</a> Babson College</p><p>(7) <a href="http://www.qianmu.org/redirect?code=0rRNYshYwPxI165pbbbbbdBARjDXMlLo6f6fSTWZurOtyV2UujhoD1NZujstusNXSPkXH1cfu1DUnPWkx4XzxpFCxpbC_VtQ_Pdznw2z6Pgw3Z2z3Pb4xZbf_LUQYmNA" target="_blank">MBA CONCENTRATIONS</a> Babson College</p><h2>两年制MBA</h2><p><strong>基本信息：</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:17.1%">			<p>USNEWS排名</p>			</td>			<td style="width:11.94%">			<p>62</p>			</td>			<td style="width:17.1%">			<p>学费</p>			</td>			<td style="width:15.8%">			<p>$63,070</p>			</td>			<td style="width:17.32%">			<p>申请截止日期</p>			</td>			<td style="width:20.74%">			<p>滚动申请</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>TOEFL要求</p>			</td>			<td style="width:11.94%">			<p>Required</p>			</td>			<td style="width:17.1%">			<p>GPA要求</p>			</td>			<td style="width:15.8%">			<p>无</p>			</td>			<td style="width:17.32%">			<p>可申请学期</p>			</td>			<td style="width:20.74%">			<p>秋季</p>			</td>		</tr>		<tr>			<td style="width:17.1%">			<p>IELTS要求</p>			</td>			<td style="width:11.94%">			<p>Required</p>			</td>			<td style="width:17.1%">			<p>GMAT要求</p>			</td>			<td style="width:15.8%">			<p>Required</p>			</td>			<td style="width:17.32%">			<p>工作经验要求</p>			</td>			<td style="width:20.74%">			<p>无</p>			</td>		</tr>	</tbody></table><p>*(1)(2)(3)</p><p>注：</p><p>（1）此处的排名是2016年USNEWS商学院的排名</p><p>（2）TOEFL与IELTS要求不详</p><p>（3）巴布森学院二年制MBA项目共分四轮申请：第一轮11月1日申请截止，12月19日出录取通知；第二轮1月5日申请截止，2月20日出录取通知；第三轮3月2日申请截止，4月10日出录取通知；第四轮4月1日申请截止，5月1日出录取通知。该项目实行滚动录取方式，录满即止，未录满则一直招生*(1)</p><p>（4）2014年，巴布森学院MBA项目（包括一年制和两年制项目），85%的学生在毕业后3个月内获得Offer，16%的学生选择自己创业，毕业生平均起薪89,341美元*(4)</p><p><strong>申请说明</strong></p><p>巴布森学院二年制MBA项目（Two-Year MBA Program）：为期2年，面向的是本科非商科或经济学专业毕业的学生。该项目要求申请者递交GMAT成绩，但未设定有最低GMAT分数要求。该项目不限专业，无需工作经验，本科毕业生可直接申请。具体申请方法可参见下方外部链接中的申请指南。*(5)</p><p><strong>录取统计</strong></p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td colspan="4" style="width:100.0%">			<p>2014年5月入学统计：</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>学生人数</p>			</td>			<td style="width:20.44%">			<p>143</p>			</td>			<td style="width:26.96%">			<p>国际学生比例</p>			</td>			<td style="width:19.72%">			<p>66%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>平均GPA</p>			</td>			<td style="width:20.44%">			<p>3.13</p>			</td>			<td style="width:26.96%">			<p>女生比例</p>			</td>			<td style="width:19.72%">			<p>28%</p>			</td>		</tr>		<tr>			<td style="width:32.86%">			<p>GMAT均分</p>			</td>			<td style="width:20.44%">			<p>630</p>			</td>			<td style="width:26.96%">			<p>平均工作经验</p>			</td>			<td style="width:19.72%">			<p>5年</p>			</td>		</tr>	</tbody></table><p>*(5)</p><p><strong>费用与奖学金</strong></p><p>巴布森学院研究生项目（包括MBA项目和其它硕士项目）向国际学生提供有Merit-based奖学金以及少量的Need-based奖学金。Merit-based奖学金无需单独申请，自动随Offer发放。具体奖学金列表可见下方的外部链接。*(6)</p><p>巴布森学院2015-16学年一年制MBA项目的费用要求如下：</p><table border="1" cellpadding="0" cellspacing="0">	<tbody>		<tr>			<td style="width:26.96%">			<p>支出项目</p>			</td>			<td style="width:52.48%">			<p>项目英文名</p>			</td>			<td style="width:20.56%">			<p>费用/年</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>学费</p>			</td>			<td style="width:52.48%">			<p>Tuition</p>			</td>			<td style="width:20.56%">			<p>$63,070</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>住宿费</p>			</td>			<td style="width:52.48%">			<p>Housing (avg.)</p>			</td>			<td style="width:20.56%">			<p>$12,870</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>餐费</p>			</td>			<td style="width:52.48%">			<p>Food (avg.)</p>			</td>			<td style="width:20.56%">			<p>$5,294</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>书本费</p>			</td>			<td style="width:52.48%">			<p>Books and supplies (avg.)</p>			</td>			<td style="width:20.56%">			<p>$1,340</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>个人花费</p>			</td>			<td style="width:52.48%">			<p>Personal (avg.)</p>			</td>			<td style="width:20.56%">			<p>$2,570</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>交通费</p>			</td>			<td style="width:52.48%">			<p>Transportation (avg.)</p>			</td>			<td style="width:20.56%">			<p>$1,774</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>医疗保险费</p>			</td>			<td style="width:52.48%">			<p>Health insurance (estimated)</p>			</td>			<td style="width:20.56%">			<p>$2,300</p>			</td>		</tr>		<tr>			<td style="width:26.96%">			<p>合计</p>			</td>			<td style="width:52.48%">			<p>Total</p>			</td>			<td style="width:20.56%">			<p>$89,218</p>			</td>		</tr>	</tbody></table><p>*(2)</p><p><strong>专业设置</strong></p><p>巴布森学院MBA项目（包括一年制和两年制）开设有以下6个专业方向，包括：</p><ul>	<li>商业分析（Business Analytics）</li>	<li>企业管理（Entrepreneurship）</li>	<li>金融（Finance）</li>	<li>全球管理（Global Management）</li>	<li>生命科学与医疗管理（Life Sciences &amp; Healthcare）</li>	<li>市场营销（Marketing）*(7)</li></ul><p>外部链接：</p><ul>	<li>奖学金列表：<a href="http://www.qianmu.org/redirect?code=1rdft_2pwOBAjWwjYPucCJO8rNyeaMFz-XdmGAL8fzOB-312QfPyV00FjVfxyHtGF301AsZiWJBlB-QfaBsZlz-dZVzyf1FLTVWROUwdY5mINiARdu51oOEAzFEwHDJuYqhOdGI29-IfPyo4212LhOluj" target="_blank">GRADUATE AWARD DETAILS</a></li>	<li>申请指南：<a href="http://www.qianmu.org/redirect?code=_r75g1q1LSONzbirRaxS_LqZMNypPizarti2uSuih0KfROgjOSjFG9tOy8hBBgqUmEVtehKpO63GrNiMJvjl3SO8AS-dPu-06JAe053aH5T-YCN1SjFG9tOySrntiQT3YnwGOzMDTRMaOaiOuh_Kql3rr" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</li></ul><p>参考资料：</p><p>(1) <a href="http://www.qianmu.org/redirect?code=mrtw23KYLclZ6IMOzVNS6Irr8iFjWdVhAmw1gVACw-_1MgvmIhxBUfnS7Pr9dQy1Y86teRyFLZtghG4xig2p3-iN0WWKsDqf3dJJpSvSPwotwZxXaTGblcFgsqcuH7TJHQrJ8" target="_blank">BABSON GRADUATE PROGRAMS APPLICATION TIMETABLE</a> Babson College</p><p>(2) <a href="http://www.qianmu.org/redirect?code=KruBHN7xwGY_PCa3CCCCCVl_skcLmoIrb1_4_4ZsKyscah25DXW3TJqOmN7P_JYru4mS2P1AgPQagHSr0DCrtpw3bOZ0WF9Q46tz8xyWU5cxyEUdyM7vx4HvSD-HxWNYLAZvc3-Jl6lTgJh--qhZ9m_CoM0Wo5TbS1jb3N0amoVlFE" target="_blank">Tuition and Financing-2015-2016 Two-Year MBA</a> Babson College</p><p>(3) <a href="http://www.qianmu.org/redirect?code=Gr-dDkh_kZqpfBnn77777lBRtBLNxQShMkMk9sKqmgwHVC4umB5hMl9HVk9XRkeiUXl97Xha7RJf-iJC5RqOILwigAOKzJ3l0lm2wfFD6Sm4MPFnXdm43iFD6SrZ3Xrvu9rn3V" target="_blank">APPLICATION INSTRUCTIONS</a>(PDF)</p><p>(4) <a href="http://www.qianmu.org/redirect?code=6ri8veOokEmsAIrhCcYbtn39g7pwY0h_O-gyK1Qk_nXzaD8s4mLmYyt_MECk-255iuaCm-28jJg3mCz6v4ZZ2YIBGduLkeCk4SVbFNNUNT-od__AUuguWFgpwUkTzOdAGw_nj1FDZZkmCmoyTE5HR4_WCzVyxmKjd-tkIEmL_w9Vi" target="_blank">MBA CAREER OUTCOMES</a> Babson College</p><p>(5) <a href="http://www.qianmu.org/redirect?code=rrcuJRvJkIT16ixOmB2IaoYjoDM2KWdYCu9cJnagPBeYAFvw_CJIDYkbBWPvgv_XooyCZIvYPbO8REwB2TcN-PwgJD5MdPUdotOLRSc_tAF484rlYLTZKJQK8PP0JIXroYRmK3" target="_blank">TWO-YEAR MBA PROGRAM</a> Babson College</p><p>(6) <a href="http://www.qianmu.org/redirect?code=qrTydPmzkc7SCaAGfffffiZ5Ls6kVrtUBaBauODFYyJ0m_XMYsSUmHR0YKJkmKkrx0jdZ_BgmoBYPjBDZfvYSClDG_BDmfcYhpyJHWvsijMw6W8gukvXB" target="_blank">GRADUATE FINANCIAL AID</a> Babson College</p><p>(7) <a href="http://www.qianmu.org/redirect?code=vrJH6YrFk2CbMdUzPPPPPK2LpADnBaZTnhMkMk9sKUvq9gLjG_IHI9Zs5kE3lMzbDMb_CZ6UPZaSMveLnQxPrw7PYNHPWuMBMy9W6KOcKgmAMRVhMMjvi1APfKcFeGoItG9HpymbixdE" target="_blank">MBA CONCENTRATIONS</a> Babson College</p></div>
+					
+	           </div>
+	           <div id="authorTrueName" style="float: right;">荏苒柔木</div><br>
+				
+	           <div class="col-md-12">
+	           		<div id="cmt" style="position: relative;"><a name="comments" style="margin-top:150px;"></a>
+		           			<div id="lastEditTime" style="position: absolute;top: 18px;right: 10px;">2017-07-12</div>
+		           			<div style="position: absolute;top: 18px;right: 100px;">最后修改时间：</div>
+	           		</div>
+	           </div>
+			  </div>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+	var ctx= '',uId='',vl='', wsip = 'ws://www.qianmu.org:8080/',ve='';
+	var vipendtime="";
+	var et='';
+	var b_name = navigator.appName; 
+	var b_version = navigator.appVersion; 
+	var version = b_version.split(";"); 
+	var trim_Version=version[1].replace(/[ ]/g,"");
+	if (b_name == "Microsoft Internet Explorer") { 
+
+	if (trim_Version == "MSIE7.0" || trim_Version == "MSIE6.0" ||trim_Version == "MSIE8.0") { 
+		alert("IE浏览器版本过低，请到指定网站去下载相关版本"); 
+	 		window.location.href="http://jiaoxueyun.com/download.jsp"; 
+		} 
+	} 
+</script>
+<script src="/r/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/r/release/js/all.js?v=1.2"></script>
+<script type='text/javascript'>
+    (function(m, ei, q, i, a, j, s) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';
+        s.parentNode.insertBefore(j, s);
+    })(window, document, 'script', '_MEIQIA');
+    _MEIQIA('entId', 99735);
+</script>
+ 
+ 
+<script type="text/javascript">
+function inadd(){
+	 var incontent = $("#intext").val();
+	 var inpid = $("#inpid").val();
+	 var itemId=4687;
+	 
+	 $.ajax({
+			url:ctx+"/addComment",
+			data:{itemId:itemId,content:incontent,type:'item',pid:inpid},
+			dataType:"json",
+			type:"post",
+			success:function(resp){
+				if(resp.success){
+					$("#pl").val(resp.msg);
+					location.reload();
+				}else{
+					if("needlogin"==resp.status){
+						$.fn.loginShow();
+					}else{
+						$.fn.notify("温馨提示",resp.msg);
+					}
+				}
+			}
+		});
+}
+
+var itemId = '4687' ;
+var editLevel  = '';
+if(itemId==''){
+	itemId=2006;
+}
+var needlogin = '1';
+	var needFill = '0';
+ 	var ads = '';  
+var needpay = '0';
+var vipnotice = '' ;
+if(vl=='0'){
+	
+}
+$(document).ready(function(){
+	if(needlogin=='1'){
+		location.href = "/loginView";
+	}
+	console.log(vipnotice);
+	if(uId!=''&&vipnotice>0&&vipnotice<3){
+		 swal({   
+	           title: "您的VIP即将到期",   
+	           text: "到期时间"+vipendtime,   
+	           type: "warning",   
+	           showCancelButton: true,   
+	           confirmButtonColor: "#DD6B55",   
+	           confirmButtonText: "购买VIP", 
+	           cancelButtonText:'我知道了',
+	           closeOnConfirm: true 
+	       }, function(){   
+	           location.href=ctx+"/zone/vippay2?vipRange=12";
+	       });
+	}
+	  
+	  /* if(ads=='0'){
+			var fillContent = new Ads({
+				closeClick:true,
+				render : function() {
+					return $.ajax({
+						url : ctx + "/getAds",
+						async : false,
+						dataType : 'text'
+					}).responseText;
+				}
+			});
+			fillContent.show();
+			$(document).scroll(function() {
+				fillContent.reposition();
+			});
+		}  */
+});
+</script>
+<script type="text/javascript">
+//反馈纠错
+$(document).ready(function(){
+	//$.fn.addCmt();
+	var itemId=4687;
+  	$("#cmt").comments({
+  		url:ctx+'/listComment',
+  		param:{itemId:itemId,type:'item'},
+  		total:"commentCount",
+  		submit:function(opts){
+  			var content = opts.content;
+  			var pid = opts.pid;
+  			if(content==""&&content.trim()==""){
+  				$.fn.notify("温馨提示","请输入评论内容");
+  				return ;
+  			}
+  			$.ajax({
+  				url:ctx+"/addComment",
+  				data:{itemId:itemId,content:content,type:'item',pid:pid},
+  				dataType:"json",
+  				type:"post",
+  				success:function(resp){
+  					if(resp.success){
+  						location.reload();
+  					}else{
+  						if("needlogin"==resp.status){
+  							$.fn.loginShow();
+  						}else{
+  							$.fn.notify("温馨提示",resp.msg);
+  						}
+  					}
+  				}
+  			});
+  		}
+  	});
+});
+
+</script>
+<script type="text/javascript" src="/static/standard/ckeditor/ckeditor.js"></script>
+<script src="/static/standard/ckeditor/adapters/jquery.js"></script> 
+<script src="/r/plugins/bower_components/bootstrap-treeview-master/dist/bootstrap-treeview.min.js"></script>
+<script type="text/javascript" src="/resources/plugins/qianmu/js/wiki.js?v=1.2"></script>
+</body>
+</html>

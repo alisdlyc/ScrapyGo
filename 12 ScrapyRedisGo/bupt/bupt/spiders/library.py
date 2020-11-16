@@ -1,5 +1,6 @@
 import json
 import logging
+import re
 
 import scrapy
 from jsonpath import jsonpath
@@ -45,7 +46,8 @@ class LibrarySpider(scrapy.Spider):
                         formdata=dict(
                             # classnoAbs=item['classno'],
                             classnoAbs=third.xpath('./span[1]/text()').extract_first().replace(' ', ''),
-                            pageNo='0',
+                            # classnoAbs='A',
+                            pageNo='72',
                             pageSize='50',
                             order='-1',
                         ),
@@ -58,32 +60,35 @@ class LibrarySpider(scrapy.Spider):
     def parse_books_pages(self, response):
         Abs = response.meta['Abs']
         Heading = response.meta['Heading']
-        for _ in range(jsonpath(json.loads(response.text), '$..totalPage')[0]):
-            yield scrapy.FormRequest(
-                url='http://opac.bupt.edu.cn:8080//search-classify.json',
-                headers=self.headers,
-                formdata=dict(
-                    # classnoAbs=item['classno'],
-                    classnoAbs=Abs,
-                    pageNo='%d' % _,
-                    pageSize='50',
-                    order='-1',
-                ),
-                callback=self.get_books_data,
-                meta={'Abs': Abs,
-                      'Heading': Heading}
-            )
+        response = re.sub(r"[\x00-\x08]|[\x0B-\x0C]|[\x0E-\x1F]", '', response.text)
+        print('%s have %d pages' % (Abs, jsonpath(json.loads(response), '$..totalPage')[0]))
 
-    def get_books_data(self, response):
-        Abs = response.meta['Abs']
-        Heading = response.meta['Heading']
-
-        books = json.loads(response.text)['data']
-        for book in books:
-            item = BookItem()
-            item['heading'] = Heading
-            item['classno'] = Abs
-            for field in item.fields:
-                if field in book.keys():
-                    item[field] = book.get(field)
-            yield item
+    #     for _ in range(jsonpath(json.loads(response.text), '$..totalPage')[0] + 1):
+    #         yield scrapy.FormRequest(
+    #             url='http://opac.bupt.edu.cn:8080//search-classify.json',
+    #             headers=self.headers,
+    #             formdata=dict(
+    #                 # classnoAbs=item['classno'],
+    #                 classnoAbs=Abs,
+    #                 pageNo='%d' % _,
+    #                 pageSize='50',
+    #                 order='-1',
+    #             ),
+    #             callback=self.get_books_data,
+    #             meta={'Abs': Abs,
+    #                   'Heading': Heading}
+    #         )
+    #
+    # def get_books_data(self, response):
+    #     Abs = response.meta['Abs']
+    #     Heading = response.meta['Heading']
+    #
+    #     books = json.loads(response.text)['data']
+    #     for book in books:
+    #         item = BookItem()
+    #         item['heading'] = Heading
+    #         item['classno'] = Abs
+    #         for field in item.fields:
+    #             if field in book.keys():
+    #                 item[field] = book.get(field)
+    #         yield item

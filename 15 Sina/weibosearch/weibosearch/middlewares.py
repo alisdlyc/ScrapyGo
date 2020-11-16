@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+
+# Define here the models for your spider middleware
+#
+# See documentation in:
+# https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+import json
+import logging
+
+import requests
+from scrapy import signals
+
+
+
